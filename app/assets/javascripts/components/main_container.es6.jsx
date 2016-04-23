@@ -6,6 +6,7 @@ class MainContainer extends React.Component {
         <div>Title: {this.props.title}</div>
         <div>Tests: {this.props.tests}</div>
         <div>Answers: {this.props.answers}</div>
+        <SearchField searchPlaceholder='Search...' />
       </div>
     );
   }
