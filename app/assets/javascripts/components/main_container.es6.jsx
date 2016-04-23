@@ -6,7 +6,7 @@ class MainContainer extends React.Component {
   }
 
   state = {
-    subjects: []
+    subjects: undefined
   }
 
   componentDidMount() {
@@ -19,15 +19,14 @@ class MainContainer extends React.Component {
   render () {
     return (
       <div>
-        <div>Subjects: {this.props.subjects}</div>
-        <div>Title: {this.props.title}</div>
-        <SearchField searchPlaceholder='Search...' />
+        {
+          this.state.subjects &&
+          <div>
+            <SubjectContainer subjects={this.state.subjects.data} />
+            <SearchField searchPlaceholder='Search...' />
+          </div>
+        }
       </div>
     );
   }
 }
-
-// MainContainer.propTypes = {
-//   subjects: React.PropTypes.array,
-//   title: React.PropTypes.string
-// };
