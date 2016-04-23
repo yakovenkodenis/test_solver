@@ -14,6 +14,7 @@ class SubjectContainer extends React.Component {
 
   render () {
     let subjectsProp = this.props.subjects;
+    console.log(this.props.subjects);
 
     const subjects = subjectsProp.map((subject, index) => {
       return (
@@ -28,9 +29,10 @@ class SubjectContainer extends React.Component {
       );
     });
 
-    let tests = subjectsProp.find(
+    let currentSubject = subjectsProp.find(
       subject => subject.name === this.state.activeSubject
-    ).tests;
+    );
+    let tests = currentSubject ? currentSubject.tests : undefined;
 
     return (
       <div>
@@ -38,10 +40,11 @@ class SubjectContainer extends React.Component {
           {subjects}
         </div>
         {
-          tests &&
+          tests ?
           <div>
             <TestContainer tests={tests}/>
           </div>
+          : <div>Тестов пока что нет.</div>
         }
       </div>
     );

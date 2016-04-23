@@ -12,7 +12,7 @@ class MainContainer extends React.Component {
   componentDidMount() {
     axios
       .get('/api/v1/subjects/all?deep=true')
-      .then(response => {this.setState({subjects: response});console.log(this.state);})
+      .then(response => this.setState({subjects: response}))
       .catch(response => console.log(response));
   }
 
