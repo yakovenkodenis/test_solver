@@ -33,4 +33,5 @@ group :development do
   gem 'table_print'
   gem 'better_errors'
   gem 'rails-erd'
+  gem 'railroady'
 end
