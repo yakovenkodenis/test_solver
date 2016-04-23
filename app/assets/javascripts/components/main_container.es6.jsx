@@ -1,4 +1,8 @@
 class MainContainer extends React.Component {
+
+  state = {
+  }
+
   render () {
     return (
       <div>

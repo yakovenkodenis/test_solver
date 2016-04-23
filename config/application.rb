@@ -32,5 +32,9 @@ module TestSolver
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    config.react.jsx_transform_options = {
+      optional: ['es7.classProperties']
+    }
   end
 end

@@ -841,3 +841,2300 @@ Started GET "/assets/administrate/search-360c782d91a21edd53f5754c3fd8f8984ec5d9b
 
 
 Started GET "/assets/datetime_picker.self-953135ed994cc31cc9cfec48a266ddfc2017dce124e3a2d0503f69d3c31ed8be.js?body=1" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-04-23 12:28:06 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::AnswersController#index as HTML
+  [1m[35mAnswer Load (0.4ms)[0m  SELECT  "answers".* FROM "answers" LIMIT 20 OFFSET 0
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (4.7ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (379.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (8.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (22.6ms)
+Completed 200 OK in 454ms (Views: 445.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/administrate/application.self-02f109d107d7ab2754cf3bc0c8d5e301aebedd4b9c6dc559e3be24dc8cfb7448.css?body=1" for 127.0.0.1 at 2016-04-23 12:28:07 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-23 12:28:07 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-23 12:28:07 +0300
+
+
+Started GET "/assets/selectize.self-3effb6f6de816db1f8f925a7be3a1677dcf689b82a2a471d2b6095b87e8872ec.js?body=1" for 127.0.0.1 at 2016-04-23 12:28:07 +0300
+
+
+Started GET "/assets/moment.self-6ab65bcb51ba1c538f5900a720453c5aff4c483661520b52008568b330d5dd03.js?body=1" for 127.0.0.1 at 2016-04-23 12:28:07 +0300
+
+
+Started GET "/assets/administrate/components/_search.self-7adb2f7a055eb9954a9015ca41f1028b1ffa44d0a8f5ddb9b7e193c599810f42.js?body=1" for 127.0.0.1 at 2016-04-23 12:28:07 +0300
+
+
+Started GET "/assets/administrate/components/date_time_picker.self-f0348b2d219140450e53b856e6ddedf2b5869e71bad36b9a3c7f9ec77a4380aa.js?body=1" for 127.0.0.1 at 2016-04-23 12:28:07 +0300
+
+
+Started GET "/assets/administrate/components/has_many_form.self-1f25789b95907cf69cffca6b436b523b4df0d94bdf8903ededdeced0ac7147d7.js?body=1" for 127.0.0.1 at 2016-04-23 12:28:07 +0300
+
+
+Started GET "/assets/administrate/components/table.self-be567616202e2a6901a0fdcd096e5a26bee6f88b83444215df31486d22d7bd71.js?body=1" for 127.0.0.1 at 2016-04-23 12:28:07 +0300
+
+
+Started GET "/assets/administrate/application.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-23 12:28:07 +0300
+
+
+Started GET "/assets/administrate/search-360c782d91a21edd53f5754c3fd8f8984ec5d9b36389f6df1fe618a4e50405b6.svg" for 127.0.0.1 at 2016-04-23 12:28:07 +0300
+
+
+Started GET "/assets/datetime_picker.self-953135ed994cc31cc9cfec48a266ddfc2017dce124e3a2d0503f69d3c31ed8be.js?body=1" for 127.0.0.1 at 2016-04-23 12:28:07 +0300
+
+
+Started GET "/admin/subjects" for 127.0.0.1 at 2016-04-23 12:28:09 +0300
+Processing by Admin::SubjectsController#index as HTML
+  [1m[35mSubject Load (24.2ms)[0m  SELECT  "subjects".* FROM "subjects" LIMIT 20 OFFSET 0
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (25.9ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "subjects"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (32.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (2.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (19.6ms)
+Completed 200 OK in 85ms (Views: 57.5ms | ActiveRecord: 25.1ms)
+
+
+Started GET "/admin/subjects/new" for 127.0.0.1 at 2016-04-23 12:28:13 +0300
+Processing by Admin::SubjectsController#new as HTML
+  [1m[35mTest Load (0.6ms)[0m  SELECT "tests".* FROM "tests"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_form.html.erb (50.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (3.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (152.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (156.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (2.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (21.9ms)
+Completed 200 OK in 239ms (Views: 232.7ms | ActiveRecord: 3.3ms)
+
+
+Started POST "/admin/subjects" for 127.0.0.1 at 2016-04-23 12:28:22 +0300
+Processing by Admin::SubjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rFkHMaCXa1Qckof7mDO2rdqVpM49+dT0yfYc8YPcbOZcT32MDyF2fuiFHBZmkeQOR+SHs+l3EFMU4OKXl7kZYQ==", "subject"=>{"test_ids"=>[""], "name"=>"ОКМ"}, "commit"=>"Create Subject"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (22.6ms)[0m  INSERT INTO "subjects" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "ОКМ"], ["created_at", "2016-04-23 09:28:22.379216"], ["updated_at", "2016-04-23 09:28:22.379216"]]
+  [1m[36m (121.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/admin/subjects/1
+Completed 302 Found in 205ms (ActiveRecord: 144.1ms)
+
+
+Started GET "/admin/subjects/1" for 127.0.0.1 at 2016-04-23 12:28:22 +0300
+Processing by Admin::SubjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSubject Load (0.3ms)[0m  SELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "tests" WHERE "tests"."subject_id" = $1 LIMIT 5) subquery_for_count[0m  [["subject_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_show.html.erb (3.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_show.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_show.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/show.html.erb within layouts/administrate/application (22.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (15.3ms)
+Completed 200 OK in 129ms (Views: 72.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/tests" for 127.0.0.1 at 2016-04-23 12:28:26 +0300
+Processing by Admin::TestsController#index as HTML
+  [1m[35mTest Load (0.3ms)[0m  SELECT  "tests".* FROM "tests" LIMIT 20 OFFSET 0
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (2.0ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tests"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (16.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (16.6ms)
+Completed 200 OK in 61ms (Views: 59.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/tests/new" for 127.0.0.1 at 2016-04-23 12:28:28 +0300
+Processing by Admin::TestsController#new as HTML
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_form.html.erb (2.5ms)
+  [1m[36mQuestion Load (8.5ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_form.html.erb (10.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (34.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (36.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (15.3ms)
+Completed 200 OK in 75ms (Views: 63.3ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/admin/subjects" for 127.0.0.1 at 2016-04-23 12:28:36 +0300
+Processing by Admin::SubjectsController#index as HTML
+  [1m[35mSubject Load (0.3ms)[0m  SELECT  "subjects".* FROM "subjects" LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (1.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (14.7ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "subjects"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (20.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (33.2ms)
+Completed 200 OK in 144ms (Views: 142.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/subjects/1/edit" for 127.0.0.1 at 2016-04-23 12:28:40 +0300
+Processing by Admin::SubjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSubject Load (0.2ms)[0m  [1mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mTest Load (0.2ms)[0m  SELECT "tests".* FROM "tests"
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_form.html.erb (1.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (4.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/edit.html.erb within layouts/administrate/application (7.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (12.2ms)
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/subjects/1" for 127.0.0.1 at 2016-04-23 12:28:44 +0300
+Processing by Admin::SubjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSubject Load (0.2ms)[0m  SELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "tests" WHERE "tests"."subject_id" = $1 LIMIT 5) subquery_for_count[0m  [["subject_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_show.html.erb (1.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_show.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_show.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/show.html.erb within layouts/administrate/application (7.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (13.8ms)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/tests" for 127.0.0.1 at 2016-04-23 12:28:48 +0300
+Processing by Admin::TestsController#index as HTML
+  [1m[35mTest Load (0.3ms)[0m  SELECT  "tests".* FROM "tests" LIMIT 20 OFFSET 0
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (1.7ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tests"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (6.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (13.8ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/tests/new" for 127.0.0.1 at 2016-04-23 12:28:51 +0300
+Processing by Admin::TestsController#new as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_form.html.erb (1.3ms)
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_form.html.erb (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (6.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (7.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (2.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (74.1ms)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/admin/tests" for 127.0.0.1 at 2016-04-23 12:29:01 +0300
+Processing by Admin::TestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qrGDXZlNtDNaqUu63Xed9gnmO6frWMTxHm9Nm4F3c8lap/ngNvupGa6+0Fcj1c9VlJcY2j/WAFbDebP9lRIGTg==", "test"=>{"subject_id"=>"1", "question_ids"=>[""], "name"=>"Тест 1"}, "commit"=>"Create Test"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (147.3ms)[0m  [1mINSERT INTO "tests" ("subject_id", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["subject_id", 1], ["name", "Тест 1"], ["created_at", "2016-04-23 09:29:01.909933"], ["updated_at", "2016-04-23 09:29:01.909933"]]
+  [1m[35m (64.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/admin/tests/1
+Completed 302 Found in 215ms (ActiveRecord: 211.4ms)
+
+
+Started GET "/admin/tests/1" for 127.0.0.1 at 2016-04-23 12:29:02 +0300
+Processing by Admin::TestsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.3ms)[0m  [1mSELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mSubject Load (0.2ms)[0m  SELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_show.html.erb (1.0ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "questions" WHERE "questions"."test_id" = $1 LIMIT 5) subquery_for_count[0m  [["test_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_show.html.erb (2.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_show.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/show.html.erb within layouts/administrate/application (31.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (28.8ms)
+Completed 200 OK in 88ms (Views: 85.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/subjects" for 127.0.0.1 at 2016-04-23 12:29:06 +0300
+Processing by Admin::SubjectsController#index as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT  "subjects".* FROM "subjects" LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (1.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (8.5ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "subjects"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (14.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (14.4ms)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/tests" for 127.0.0.1 at 2016-04-23 12:29:21 +0300
+Processing by Admin::TestsController#index as HTML
+  [1m[36mTest Load (0.3ms)[0m  [1mSELECT  "tests".* FROM "tests" LIMIT 20 OFFSET 0[0m
+  [1m[35mSubject Load (0.2ms)[0m  SELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.8ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "questions" WHERE "questions"."test_id" = $1[0m  [["test_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (25.3ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tests"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (30.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (15.4ms)
+Completed 200 OK in 67ms (Views: 65.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/tests/new" for 127.0.0.1 at 2016-04-23 12:29:23 +0300
+Processing by Admin::TestsController#new as HTML
+  [1m[36mSubject Load (0.3ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_form.html.erb (3.0ms)
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT "questions".* FROM "questions"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_form.html.erb (1.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (10.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (13.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (2.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (23.2ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/admin/tests" for 127.0.0.1 at 2016-04-23 12:29:31 +0300
+Processing by Admin::TestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"92ee8aHDEKTaSQMyLE278ryHtebEeffG2zOUUatjdy0HceRMDnUNji5emN/S7+lRIfaWmxD3M2EGJWo3vwYCqg==", "test"=>{"subject_id"=>"1", "question_ids"=>[""], "name"=>"Тест 2"}, "commit"=>"Create Test"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tests" ("subject_id", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["subject_id", 1], ["name", "Тест 2"], ["created_at", "2016-04-23 09:29:32.277448"], ["updated_at", "2016-04-23 09:29:32.277448"]]
+  [1m[36m (10.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/admin/tests/2
+Completed 302 Found in 14ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/admin/tests/2" for 127.0.0.1 at 2016-04-23 12:29:32 +0300
+Processing by Admin::TestsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTest Load (0.2ms)[0m  SELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mSubject Load (11.1ms)[0m  [1mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_show.html.erb (0.3ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "questions" WHERE "questions"."test_id" = $1 LIMIT 5) subquery_for_count  [["test_id", 2]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_show.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_show.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/show.html.erb within layouts/administrate/application (30.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (148.7ms)
+Completed 200 OK in 258ms (Views: 246.0ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/admin/questions" for 127.0.0.1 at 2016-04-23 12:29:53 +0300
+Processing by Admin::QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT  "questions".* FROM "questions" LIMIT 20 OFFSET 0[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (2.2ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "questions"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (19.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (13.0ms)
+Completed 200 OK in 80ms (Views: 63.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/questions/new" for 127.0.0.1 at 2016-04-23 12:29:57 +0300
+Processing by Admin::QuestionsController#new as HTML
+  [1m[36mTest Load (0.4ms)[0m  [1mSELECT "tests".* FROM "tests"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_form.html.erb (2.0ms)
+  [1m[35mAnswer Load (0.4ms)[0m  SELECT "answers".* FROM "answers"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_form.html.erb (62.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (70.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (72.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (16.1ms)
+Completed 200 OK in 115ms (Views: 50.3ms | ActiveRecord: 61.4ms)
+
+
+Started POST "/admin/questions" for 127.0.0.1 at 2016-04-23 12:32:34 +0300
+Processing by Admin::QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mOETg5OA61fv+GAP1Ksftm0rpkP3wxAhSdrBu/LSiEJo92k+PDb2fRvv++IqCU0V8FqFPiNN1IaUzD/d5rf9xQ==", "question"=>{"test_id"=>"1", "answer_ids"=>[""], "question"=>"Локальні компьютерні мережі позначаються за міжнародними стандартами скороченням:"}, "commit"=>"Create Question"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (47.4ms)[0m  INSERT INTO "questions" ("test_id", "question", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["test_id", 1], ["question", "Локальні компьютерні мережі позначаються за міжнародними стандартами скороченням:"], ["created_at", "2016-04-23 09:32:34.654884"], ["updated_at", "2016-04-23 09:32:34.654884"]]
+  [1m[36m (41.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/admin/questions/1
+Completed 302 Found in 93ms (ActiveRecord: 88.8ms)
+
+
+Started GET "/admin/questions/1" for 127.0.0.1 at 2016-04-23 12:32:34 +0300
+Processing by Admin::QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_show.html.erb (0.2ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 5) subquery_for_count  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_show.html.erb (2.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_show.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/show.html.erb within layouts/administrate/application (9.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (13.8ms)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/answers" for 127.0.0.1 at 2016-04-23 12:32:36 +0300
+Processing by Admin::AnswersController#index as HTML
+  [1m[36mAnswer Load (0.3ms)[0m  [1mSELECT  "answers".* FROM "answers" LIMIT 20 OFFSET 0[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (2.0ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "answers"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (7.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (14.2ms)
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/answers/new" for 127.0.0.1 at 2016-04-23 12:32:41 +0300
+Processing by Admin::AnswersController#new as HTML
+  [1m[36mQuestion Load (51.4ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_form.html.erb (54.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (252.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (255.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (2.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (86.3ms)
+Completed 200 OK in 856ms (Views: 799.3ms | ActiveRecord: 51.4ms)
+
+
+Started GET "/admin/answers" for 127.0.0.1 at 2016-04-23 12:39:45 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (11.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::AnswersController#index as HTML
+  [1m[35mAnswer Load (12.5ms)[0m  SELECT  "answers".* FROM "answers" LIMIT 20 OFFSET 0
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (17.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "answers"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (699.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (34.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (54.4ms)
+Completed 200 OK in 947ms (Views: 863.4ms | ActiveRecord: 38.4ms)
+
+
+Started GET "/assets/administrate/application.self-02f109d107d7ab2754cf3bc0c8d5e301aebedd4b9c6dc559e3be24dc8cfb7448.css?body=1" for 127.0.0.1 at 2016-04-23 12:39:47 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-23 12:39:47 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-23 12:39:47 +0300
+
+
+Started GET "/assets/selectize.self-3effb6f6de816db1f8f925a7be3a1677dcf689b82a2a471d2b6095b87e8872ec.js?body=1" for 127.0.0.1 at 2016-04-23 12:39:47 +0300
+
+
+Started GET "/assets/moment.self-6ab65bcb51ba1c538f5900a720453c5aff4c483661520b52008568b330d5dd03.js?body=1" for 127.0.0.1 at 2016-04-23 12:39:47 +0300
+
+
+Started GET "/assets/administrate/components/_search.self-7adb2f7a055eb9954a9015ca41f1028b1ffa44d0a8f5ddb9b7e193c599810f42.js?body=1" for 127.0.0.1 at 2016-04-23 12:39:47 +0300
+
+
+Started GET "/assets/administrate/components/date_time_picker.self-f0348b2d219140450e53b856e6ddedf2b5869e71bad36b9a3c7f9ec77a4380aa.js?body=1" for 127.0.0.1 at 2016-04-23 12:39:47 +0300
+
+
+Started GET "/assets/administrate/components/has_many_form.self-1f25789b95907cf69cffca6b436b523b4df0d94bdf8903ededdeced0ac7147d7.js?body=1" for 127.0.0.1 at 2016-04-23 12:39:47 +0300
+
+
+Started GET "/assets/administrate/components/table.self-be567616202e2a6901a0fdcd096e5a26bee6f88b83444215df31486d22d7bd71.js?body=1" for 127.0.0.1 at 2016-04-23 12:39:47 +0300
+
+
+Started GET "/assets/administrate/application.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-23 12:39:47 +0300
+
+
+Started GET "/assets/administrate/search-360c782d91a21edd53f5754c3fd8f8984ec5d9b36389f6df1fe618a4e50405b6.svg" for 127.0.0.1 at 2016-04-23 12:39:47 +0300
+
+
+Started GET "/assets/datetime_picker.self-953135ed994cc31cc9cfec48a266ddfc2017dce124e3a2d0503f69d3c31ed8be.js?body=1" for 127.0.0.1 at 2016-04-23 12:39:47 +0300
+
+
+Started GET "/admin/answers/new" for 127.0.0.1 at 2016-04-23 12:39:49 +0300
+Processing by Admin::AnswersController#new as HTML
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT "questions".* FROM "questions"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_form.html.erb (30.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (1.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (57.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (59.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (19.1ms)
+Completed 200 OK in 192ms (Views: 98.7ms | ActiveRecord: 90.0ms)
+
+
+Started POST "/admin/answers" for 127.0.0.1 at 2016-04-23 12:39:56 +0300
+Processing by Admin::AnswersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fbgwrSJl+vPcYx5hXedjcE0+sUAnzdQL2a9NFWKdYUuNrkoQjdPn2Sh0hYyjRTHT0E+SPfNDEKwEubNzdvgUzA==", "answer"=>{"question_id"=>"1", "answer"=>"LAN"}, "commit"=>"Create Answer"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (35.6ms)[0m  INSERT INTO "answers" ("question_id", "answer", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["question_id", 1], ["answer", "LAN"], ["created_at", "2016-04-23 09:39:56.703395"], ["updated_at", "2016-04-23 09:39:56.703395"]]
+  [1m[36m (15.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/admin/answers/1
+Completed 302 Found in 72ms (ActiveRecord: 51.7ms)
+
+
+Started GET "/admin/answers/1" for 127.0.0.1 at 2016-04-23 12:39:56 +0300
+Processing by Admin::AnswersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAnswer Load (0.3ms)[0m  SELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_show.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_show.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_show.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/show.html.erb within layouts/administrate/application (10.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (12.5ms)
+Completed 200 OK in 92ms (Views: 45.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/questions" for 127.0.0.1 at 2016-04-23 12:39:58 +0300
+Processing by Admin::QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  "questions".* FROM "questions" LIMIT 20 OFFSET 0
+  [1m[36mTest Load (17.5ms)[0m  [1mSELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (1.3ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (1.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (50.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "questions"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (55.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (15.0ms)
+Completed 200 OK in 92ms (Views: 72.4ms | ActiveRecord: 19.2ms)
+
+
+Started GET "/admin/questions/1" for 127.0.0.1 at 2016-04-23 12:40:01 +0300
+Processing by Admin::QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mTest Load (0.3ms)[0m  [1mSELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_show.html.erb (0.2ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 5) subquery_for_count  [["question_id", 1]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT  "answers".* FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 5[0m  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (5.9ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_show.html.erb (12.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_show.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/show.html.erb within layouts/administrate/application (18.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (12.5ms)
+Completed 200 OK in 53ms (Views: 50.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/admin/tests" for 127.0.0.1 at 2016-04-23 12:40:05 +0300
+Processing by Admin::TestsController#index as HTML
+  [1m[36mTest Load (0.3ms)[0m  [1mSELECT  "tests".* FROM "tests" LIMIT 20 OFFSET 0[0m
+  [1m[35mSubject Load (26.0ms)[0m  SELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.9ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "questions" WHERE "questions"."test_id" = $1[0m  [["test_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (1.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "questions" WHERE "questions"."test_id" = $1[0m  [["test_id", 2]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (1.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (45.3ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tests"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (50.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (13.7ms)
+Completed 200 OK in 85ms (Views: 57.0ms | ActiveRecord: 27.9ms)
+
+
+Started GET "/admin/tests/1" for 127.0.0.1 at 2016-04-23 12:40:08 +0300
+Processing by Admin::TestsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.3ms)[0m  [1mSELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mSubject Load (0.2ms)[0m  SELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_show.html.erb (0.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "questions" WHERE "questions"."test_id" = $1 LIMIT 5) subquery_for_count[0m  [["test_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."test_id" = $1 LIMIT 5  [["test_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (0.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (6.0ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "questions" WHERE "questions"."test_id" = $1  [["test_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_show.html.erb (10.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_show.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/show.html.erb within layouts/administrate/application (16.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (12.8ms)
+Completed 200 OK in 51ms (Views: 48.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin/tests/1" for 127.0.0.1 at 2016-04-23 12:40:12 +0300
+Processing by Admin::TestsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.3ms)[0m  [1mSELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mSubject Load (0.3ms)[0m  SELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_show.html.erb (0.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "questions" WHERE "questions"."test_id" = $1 LIMIT 5) subquery_for_count[0m  [["test_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."test_id" = $1 LIMIT 5  [["test_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (0.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (5.6ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "questions" WHERE "questions"."test_id" = $1  [["test_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_show.html.erb (8.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_show.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_show.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/show.html.erb within layouts/administrate/application (14.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (12.5ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin/questions/1" for 127.0.0.1 at 2016-04-23 12:40:17 +0300
+Processing by Admin::QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mTest Load (0.2ms)[0m  SELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_show.html.erb (0.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 5) subquery_for_count[0m  [["question_id", 1]]
+  [1m[35mAnswer Load (0.4ms)[0m  SELECT  "answers".* FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 5  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (7.3ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_show.html.erb (57.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_show.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/show.html.erb within layouts/administrate/application (63.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (13.8ms)
+Completed 200 OK in 99ms (Views: 96.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 15:11:09 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.4ms)
+Completed 200 OK in 8035ms (Views: 8034.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-23 15:11:20 +0300
+
+
+Started GET "/assets/components/main_container.self-dbcc964baa8c0bf514223554ab2bac290da61ab220d88b64858f9c71da542c0e.js?body=1" for 127.0.0.1 at 2016-04-23 15:11:20 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-23 15:11:20 +0300
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-23 15:11:42 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (301.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (152.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (168.3ms)
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-23 15:18:10 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 15:18:11 +0300
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1337ms (ActiveRecord: 0.0ms)
+
+React::ServerRendering::PrerenderError - Encountered error "TypeError: Cannot read property 'test' of null" when prerendering MainContainer with {"title":"Hello World"}
+MainContainer.render ((execjs):19761:21)
+ReactCompositeComponentMixin._renderValidatedComponentWithoutOwnerOrContext ((execjs):8128:35)
+ReactCompositeComponentMixin._renderValidatedComponent ((execjs):8148:33)
+wrapper [as _renderValidatedComponent] ((execjs):2744:22)
+ReactCompositeComponentMixin.mountComponent ((execjs):7761:31)
+wrapper [as mountComponent] ((execjs):2744:22)
+(execjs):18788:39
+ReactServerRenderingTransaction.Mixin.perform ((execjs):7178:21)
+Object.renderToString ((execjs):18786:25)
+eval (eval at <anonymous> ((execjs):19827:8), <anonymous>:3:41)
+/home/denis/.rvm/gems/ruby-2.1.5/gems/execjs-2.6.0/lib/execjs/external_runtime.rb:39:in `exec'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/execjs-2.6.0/lib/execjs/external_runtime.rb:21:in `eval'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/server_rendering/exec_js_renderer.rb:23:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/server_rendering/sprockets_renderer.rb:40:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/server_rendering.rb:17:in `block in render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:64:in `block (2 levels) in with'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:63:in `handle_interrupt'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:63:in `block in with'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:60:in `handle_interrupt'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:60:in `with'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/server_rendering.rb:16:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/component_mount.rb:31:in `block in react_component'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/helpers/capture_helper.rb:202:in `with_output_buffer'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/helpers/capture_helper.rb:38:in `capture'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/helpers/tag_helper.rb:106:in `content_tag'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/component_mount.rb:44:in `react_component'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/view_helper.rb:21:in `react_component'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/controller_renderer.rb:16:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/railtie.rb:50:in `block (2 levels) in <class:Railtie>'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'
+/home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each_key'
+/home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/rendering.rb:25:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:43:in `render'
+/home/denis/WEB/Rails/test_solver/app/controllers/home_controller.rb:3:in `index'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:198:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:19:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `block in instrument'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `instrument'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:137:in `process'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/rendering.rb:30:in `process'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal.rb:196:in `dispatch'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal.rb:237:in `block in action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:76:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:45:in `serve'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/journey/router.rb:43:in `block in serve'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/journey/router.rb:30:in `each'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/journey/router.rb:30:in `serve'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:817:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/conditionalget.rb:25:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/flash.rb:260:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/query_cache.rb:36:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/migration.rb:377:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:84:in `protected_app_call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:79:in `better_errors_call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:57:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/rack/logger.rb:38:in `call_app'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `block in call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:26:in `tagged'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `tagged'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/static.rb:116:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/configuration.rb:224:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/server.rb:569:in `handle_request'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/server.rb:406:in `process_client'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/server.rb:271:in `block in run'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `block in spawn_thread':
+  react-rails (1.6.2) lib/react/server_rendering/exec_js_renderer.rb:25:in `rescue in render'
+  react-rails (1.6.2) lib/react/server_rendering/exec_js_renderer.rb:14:in `render'
+  react-rails (1.6.2) lib/react/server_rendering/sprockets_renderer.rb:40:in `render'
+  react-rails (1.6.2) lib/react/server_rendering.rb:17:in `block in render'
+  connection_pool (2.2.0) lib/connection_pool.rb:64:in `block (2 levels) in with'
+  connection_pool (2.2.0) lib/connection_pool.rb:63:in `block in with'
+  connection_pool (2.2.0) lib/connection_pool.rb:60:in `with'
+  react-rails (1.6.2) lib/react/server_rendering.rb:16:in `render'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:31:in `block in react_component'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:202:in `with_output_buffer'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `capture'
+  actionview (4.2.5) lib/action_view/helpers/tag_helper.rb:106:in `content_tag'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:44:in `react_component'
+  react-rails (1.6.2) lib/react/rails/view_helper.rb:21:in `react_component'
+  react-rails (1.6.2) lib/react/rails/controller_renderer.rb:16:in `call'
+  react-rails (1.6.2) lib/react/rails/railtie.rb:50:in `block (2 levels) in <class:Railtie>'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  app/controllers/home_controller.rb:3:in `index'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+
+Started POST "/__better_errors/d8282a886b6c8fc0/variables" for 127.0.0.1 at 2016-04-23 15:18:13 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 15:27:39 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 537ms (ActiveRecord: 0.0ms)
+
+React::ServerRendering::PrerenderError - Encountered error "TypeError: Cannot read property 'test' of null" when prerendering MainContainer with {"title":"Hello World"}
+MainContainer.render ((execjs):19761:21)
+ReactCompositeComponentMixin._renderValidatedComponentWithoutOwnerOrContext ((execjs):8128:35)
+ReactCompositeComponentMixin._renderValidatedComponent ((execjs):8148:33)
+wrapper [as _renderValidatedComponent] ((execjs):2744:22)
+ReactCompositeComponentMixin.mountComponent ((execjs):7761:31)
+wrapper [as mountComponent] ((execjs):2744:22)
+(execjs):18788:39
+ReactServerRenderingTransaction.Mixin.perform ((execjs):7178:21)
+Object.renderToString ((execjs):18786:25)
+eval (eval at <anonymous> ((execjs):19827:8), <anonymous>:3:41)
+/home/denis/.rvm/gems/ruby-2.1.5/gems/execjs-2.6.0/lib/execjs/external_runtime.rb:39:in `exec'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/execjs-2.6.0/lib/execjs/external_runtime.rb:21:in `eval'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/server_rendering/exec_js_renderer.rb:23:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/server_rendering/sprockets_renderer.rb:40:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/server_rendering.rb:17:in `block in render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:64:in `block (2 levels) in with'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:63:in `handle_interrupt'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:63:in `block in with'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:60:in `handle_interrupt'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:60:in `with'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/server_rendering.rb:16:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/component_mount.rb:31:in `block in react_component'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/helpers/capture_helper.rb:202:in `with_output_buffer'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/helpers/capture_helper.rb:38:in `capture'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/helpers/tag_helper.rb:106:in `content_tag'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/component_mount.rb:44:in `react_component'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/view_helper.rb:21:in `react_component'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/controller_renderer.rb:16:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/railtie.rb:50:in `block (2 levels) in <class:Railtie>'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'
+/home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each_key'
+/home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/rendering.rb:25:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:43:in `render'
+/home/denis/WEB/Rails/test_solver/app/controllers/home_controller.rb:3:in `index'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:198:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:19:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `block in instrument'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `instrument'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:137:in `process'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/rendering.rb:30:in `process'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal.rb:196:in `dispatch'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal.rb:237:in `block in action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:76:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:45:in `serve'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/journey/router.rb:43:in `block in serve'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/journey/router.rb:30:in `each'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/journey/router.rb:30:in `serve'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:817:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/conditionalget.rb:25:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/flash.rb:260:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/query_cache.rb:36:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/migration.rb:377:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:84:in `protected_app_call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:79:in `better_errors_call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:57:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/rack/logger.rb:38:in `call_app'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `block in call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:26:in `tagged'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `tagged'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/static.rb:116:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/configuration.rb:224:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/server.rb:569:in `handle_request'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/server.rb:406:in `process_client'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/server.rb:271:in `block in run'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `block in spawn_thread':
+  react-rails (1.6.2) lib/react/server_rendering/exec_js_renderer.rb:25:in `rescue in render'
+  react-rails (1.6.2) lib/react/server_rendering/exec_js_renderer.rb:14:in `render'
+  react-rails (1.6.2) lib/react/server_rendering/sprockets_renderer.rb:40:in `render'
+  react-rails (1.6.2) lib/react/server_rendering.rb:17:in `block in render'
+  connection_pool (2.2.0) lib/connection_pool.rb:64:in `block (2 levels) in with'
+  connection_pool (2.2.0) lib/connection_pool.rb:63:in `block in with'
+  connection_pool (2.2.0) lib/connection_pool.rb:60:in `with'
+  react-rails (1.6.2) lib/react/server_rendering.rb:16:in `render'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:31:in `block in react_component'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:202:in `with_output_buffer'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `capture'
+  actionview (4.2.5) lib/action_view/helpers/tag_helper.rb:106:in `content_tag'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:44:in `react_component'
+  react-rails (1.6.2) lib/react/rails/view_helper.rb:21:in `react_component'
+  react-rails (1.6.2) lib/react/rails/controller_renderer.rb:16:in `call'
+  react-rails (1.6.2) lib/react/rails/railtie.rb:50:in `block (2 levels) in <class:Railtie>'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  app/controllers/home_controller.rb:3:in `index'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+
+Started POST "/__better_errors/1a69542c0b83afeb/variables" for 127.0.0.1 at 2016-04-23 15:27:40 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 15:28:19 +0300
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2103ms (ActiveRecord: 0.0ms)
+
+ExecJS::ProgramError - ReferenceError: [BABEL] unknown: Unknown option: direct.presets:
+  execjs (2.6.0) lib/execjs/external_runtime.rb:84:in `extract_result'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:39:in `exec'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:21:in `eval'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:46:in `call'
+  babel-transpiler (0.7.0) lib/babel/transpiler.rb:28:in `transform'
+  react-rails (1.6.2) lib/react/jsx/babel_transformer.rb:17:in `transform'
+  react-rails (1.6.2) lib/react/jsx.rb:21:in `transform'
+  react-rails (1.6.2) lib/react/jsx/processor.rb:5:in `call'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.6.0) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.6.0) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.6.0) lib/sprockets/loader.rb:317:in `fetch_asset_from_dependency_cache'
+  sprockets (3.6.0) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.6.0) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.6.0) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.6.0) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.6.0) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.6.0) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.6.0) lib/sprockets/loader.rb:317:in `fetch_asset_from_dependency_cache'
+  sprockets (3.6.0) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.6.0) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.6.0) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.6.0) lib/sprockets/base.rb:92:in `[]'
+  react-rails (1.6.2) lib/react/server_rendering/environment_container.rb:14:in `find_asset'
+  react-rails (1.6.2) lib/react/server_rendering/sprockets_renderer.rb:22:in `block in initialize'
+  react-rails (1.6.2) lib/react/server_rendering/sprockets_renderer.rb:21:in `initialize'
+  react-rails (1.6.2) lib/react/server_rendering.rb:22:in `create_renderer'
+  react-rails (1.6.2) lib/react/server_rendering.rb:12:in `block in reset_pool'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:169:in `try_create'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:81:in `block (2 levels) in pop'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:77:in `block in pop'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:76:in `pop'
+  connection_pool (2.2.0) lib/connection_pool.rb:89:in `checkout'
+  connection_pool (2.2.0) lib/connection_pool.rb:61:in `block in with'
+  connection_pool (2.2.0) lib/connection_pool.rb:60:in `with'
+  react-rails (1.6.2) lib/react/server_rendering.rb:16:in `render'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:31:in `block in react_component'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:202:in `with_output_buffer'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `capture'
+  actionview (4.2.5) lib/action_view/helpers/tag_helper.rb:106:in `content_tag'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:44:in `react_component'
+  react-rails (1.6.2) lib/react/rails/view_helper.rb:21:in `react_component'
+  react-rails (1.6.2) lib/react/rails/controller_renderer.rb:16:in `call'
+  react-rails (1.6.2) lib/react/rails/railtie.rb:50:in `block (2 levels) in <class:Railtie>'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  app/controllers/home_controller.rb:3:in `index'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 15:28:46 +0300
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1106ms (ActiveRecord: 0.0ms)
+
+ExecJS::ProgramError - ReferenceError: [BABEL] unknown: Unknown option: direct.presets:
+  execjs (2.6.0) lib/execjs/external_runtime.rb:84:in `extract_result'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:39:in `exec'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:21:in `eval'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:46:in `call'
+  babel-transpiler (0.7.0) lib/babel/transpiler.rb:28:in `transform'
+  react-rails (1.6.2) lib/react/jsx/babel_transformer.rb:17:in `transform'
+  react-rails (1.6.2) lib/react/jsx.rb:21:in `transform'
+  react-rails (1.6.2) lib/react/jsx/processor.rb:5:in `call'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.6.0) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.6.0) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.6.0) lib/sprockets/loader.rb:317:in `fetch_asset_from_dependency_cache'
+  sprockets (3.6.0) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.6.0) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.6.0) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.6.0) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.6.0) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.6.0) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.6.0) lib/sprockets/loader.rb:317:in `fetch_asset_from_dependency_cache'
+  sprockets (3.6.0) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.6.0) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.6.0) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.6.0) lib/sprockets/base.rb:92:in `[]'
+  react-rails (1.6.2) lib/react/server_rendering/environment_container.rb:14:in `find_asset'
+  react-rails (1.6.2) lib/react/server_rendering/sprockets_renderer.rb:22:in `block in initialize'
+  react-rails (1.6.2) lib/react/server_rendering/sprockets_renderer.rb:21:in `initialize'
+  react-rails (1.6.2) lib/react/server_rendering.rb:22:in `create_renderer'
+  react-rails (1.6.2) lib/react/server_rendering.rb:12:in `block in reset_pool'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:169:in `try_create'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:81:in `block (2 levels) in pop'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:77:in `block in pop'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:76:in `pop'
+  connection_pool (2.2.0) lib/connection_pool.rb:89:in `checkout'
+  connection_pool (2.2.0) lib/connection_pool.rb:61:in `block in with'
+  connection_pool (2.2.0) lib/connection_pool.rb:60:in `with'
+  react-rails (1.6.2) lib/react/server_rendering.rb:16:in `render'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:31:in `block in react_component'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:202:in `with_output_buffer'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `capture'
+  actionview (4.2.5) lib/action_view/helpers/tag_helper.rb:106:in `content_tag'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:44:in `react_component'
+  react-rails (1.6.2) lib/react/rails/view_helper.rb:21:in `react_component'
+  react-rails (1.6.2) lib/react/rails/controller_renderer.rb:16:in `call'
+  react-rails (1.6.2) lib/react/rails/railtie.rb:50:in `block (2 levels) in <class:Railtie>'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  app/controllers/home_controller.rb:3:in `index'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+
+Started POST "/__better_errors/220ec9d4b3262b28/variables" for 127.0.0.1 at 2016-04-23 15:28:49 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 15:33:39 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.5ms)
+Completed 200 OK in 5343ms (Views: 5342.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/components/main_container.self-c5ed54b2f5e92d2086c602f4ed8da84e3edc5653cb2ed319225a4c500c24b657.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/components/search_field.self-1a917d428981ce88217dbb1ae52b073222c23817ecdbd17e1824d312268de6a9.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-23 15:33:46 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (172.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (400.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (538.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (644.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 15:34:35 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.4ms)
+Completed 200 OK in 1240ms (Views: 1240.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/components/main_container.self-2988938a4293b29cd256cd79930d010cfdd397a9040170d59862cd70bd9c5f4b.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/components/search_field.self-1a917d428981ce88217dbb1ae52b073222c23817ecdbd17e1824d312268de6a9.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-23 15:34:37 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (9.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 15:35:00 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.5ms)
+Completed 200 OK in 1042ms (Views: 1042.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/components/main_container.self-7427463827ae89e1d6cfc8b125c1daca1bec19b3d22dad1ee7b3373fe9ea30a4.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/components/search_field.self-1a917d428981ce88217dbb1ae52b073222c23817ecdbd17e1824d312268de6a9.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-23 15:35:02 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 15:36:07 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.5ms)
+Completed 200 OK in 1272ms (Views: 1271.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/components/main_container.self-210614b1dd6b3e8c114491e319e13160526e472eedcb2c3fc5a9ae1ca77842e9.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/components/search_field.self-1a917d428981ce88217dbb1ae52b073222c23817ecdbd17e1824d312268de6a9.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-23 15:36:09 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (21.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 15:36:56 +0300
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 693ms (ActiveRecord: 0.0ms)
+
+React::ServerRendering::PrerenderError - Encountered error "TypeError: Cannot read property 'email' of undefined" when prerendering MainContainer with {"title":"Hello World"}
+MainContainer.render ((execjs):19766:31)
+ReactCompositeComponentMixin._renderValidatedComponentWithoutOwnerOrContext ((execjs):8128:35)
+ReactCompositeComponentMixin._renderValidatedComponent ((execjs):8148:33)
+wrapper [as _renderValidatedComponent] ((execjs):2744:22)
+ReactCompositeComponentMixin.mountComponent ((execjs):7761:31)
+wrapper [as mountComponent] ((execjs):2744:22)
+(execjs):18788:39
+ReactServerRenderingTransaction.Mixin.perform ((execjs):7178:21)
+Object.renderToString ((execjs):18786:25)
+eval (eval at <anonymous> ((execjs):19829:8), <anonymous>:3:41)
+/home/denis/.rvm/gems/ruby-2.1.5/gems/execjs-2.6.0/lib/execjs/external_runtime.rb:39:in `exec'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/execjs-2.6.0/lib/execjs/external_runtime.rb:21:in `eval'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/server_rendering/exec_js_renderer.rb:23:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/server_rendering/sprockets_renderer.rb:40:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/server_rendering.rb:17:in `block in render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:64:in `block (2 levels) in with'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:63:in `handle_interrupt'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:63:in `block in with'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:60:in `handle_interrupt'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/connection_pool-2.2.0/lib/connection_pool.rb:60:in `with'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/server_rendering.rb:16:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/component_mount.rb:31:in `block in react_component'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/helpers/capture_helper.rb:202:in `with_output_buffer'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/helpers/capture_helper.rb:38:in `capture'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/helpers/tag_helper.rb:106:in `content_tag'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/component_mount.rb:44:in `react_component'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/view_helper.rb:21:in `react_component'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/controller_renderer.rb:16:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/react-rails-1.6.2/lib/react/rails/railtie.rb:50:in `block (2 levels) in <class:Railtie>'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'
+/home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each_key'
+/home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/rendering.rb:25:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:43:in `render'
+/home/denis/WEB/Rails/test_solver/app/controllers/home_controller.rb:3:in `index'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:198:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:19:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `block in instrument'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `instrument'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:137:in `process'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionview-4.2.5/lib/action_view/rendering.rb:30:in `process'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal.rb:196:in `dispatch'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_controller/metal.rb:237:in `block in action'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:76:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:45:in `serve'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/journey/router.rb:43:in `block in serve'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/journey/router.rb:30:in `each'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/journey/router.rb:30:in `serve'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:817:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/conditionalget.rb:25:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/flash.rb:260:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/query_cache.rb:36:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activerecord-4.2.5/lib/active_record/migration.rb:377:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:84:in `protected_app_call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:79:in `better_errors_call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:57:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/rack/logger.rb:38:in `call_app'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `block in call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:26:in `tagged'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `tagged'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/static.rb:116:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/configuration.rb:224:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/server.rb:569:in `handle_request'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/server.rb:406:in `process_client'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/server.rb:271:in `block in run'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `call'
+/home/denis/.rvm/gems/ruby-2.1.5/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `block in spawn_thread':
+  react-rails (1.6.2) lib/react/server_rendering/exec_js_renderer.rb:25:in `rescue in render'
+  react-rails (1.6.2) lib/react/server_rendering/exec_js_renderer.rb:14:in `render'
+  react-rails (1.6.2) lib/react/server_rendering/sprockets_renderer.rb:40:in `render'
+  react-rails (1.6.2) lib/react/server_rendering.rb:17:in `block in render'
+  connection_pool (2.2.0) lib/connection_pool.rb:64:in `block (2 levels) in with'
+  connection_pool (2.2.0) lib/connection_pool.rb:63:in `block in with'
+  connection_pool (2.2.0) lib/connection_pool.rb:60:in `with'
+  react-rails (1.6.2) lib/react/server_rendering.rb:16:in `render'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:31:in `block in react_component'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:202:in `with_output_buffer'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `capture'
+  actionview (4.2.5) lib/action_view/helpers/tag_helper.rb:106:in `content_tag'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:44:in `react_component'
+  react-rails (1.6.2) lib/react/rails/view_helper.rb:21:in `react_component'
+  react-rails (1.6.2) lib/react/rails/controller_renderer.rb:16:in `call'
+  react-rails (1.6.2) lib/react/rails/railtie.rb:50:in `block (2 levels) in <class:Railtie>'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  app/controllers/home_controller.rb:3:in `index'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+
+Started POST "/__better_errors/d8e9dd91c72d7cea/variables" for 127.0.0.1 at 2016-04-23 15:36:59 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 15:39:11 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (7.8ms)
+Completed 200 OK in 1617ms (Views: 1616.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/components/search_field.self-1a917d428981ce88217dbb1ae52b073222c23817ecdbd17e1824d312268de6a9.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/components/main_container.self-dc5209306b833565a46bdb68a23a8b91d0f26c0b7c5881d2844a637819876bea.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-23 15:39:14 +0300
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-23 15:39:15 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.5ms)

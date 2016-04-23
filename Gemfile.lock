@@ -61,6 +61,11 @@ GEM
       tag_helper (~> 0.5)
     autoprefixer-rails (6.3.6)
       execjs
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    axios_rails (0.7.0)
     babel-source (5.8.35)
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
@@ -78,18 +83,36 @@ GEM
     byebug (8.2.4)
     choice (0.2.0)
     coderay (1.1.1)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
     coffee-script-source (1.10.0)
     concurrent-ruby (1.0.1)
     connection_pool (2.2.0)
     datetime_picker_rails (0.0.7)
       momentjs-rails (>= 2.8.1)
     debug_inspector (0.0.2)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    enumerable-lazy (0.0.1)
+    equalizer (0.0.11)
     erubis (2.7.0)
     execjs (2.6.0)
     gemoji (2.1.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    grape (0.16.2)
+      activesupport
+      builder
+      hashie (>= 2.1.0)
+      multi_json (>= 1.3.2)
+      multi_xml (>= 0.5.2)
+      mustermann19 (~> 0.4.3)
+      rack (>= 1.3.0)
+      rack-accept
+      virtus (>= 1.0.0)
+    hashie (3.4.3)
     i18n (0.7.0)
+    ice_nine (0.11.2)
     jbuilder (2.4.1)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
@@ -114,6 +137,9 @@ GEM
     momentjs-rails (2.11.1)
       railties (>= 3.1)
     multi_json (1.11.2)
+    multi_xml (0.5.5)
+    mustermann19 (0.4.3)
+      enumerable-lazy
     neat (1.7.4)
       bourbon (>= 4.0)
       sass (>= 3.3)
@@ -127,6 +153,8 @@ GEM
       slop (~> 3.4)
     puma (3.4.0)
     rack (1.6.4)
+    rack-accept (0.4.5)
+      rack (>= 0.4)
     rack-test (0.6.3)
       rack (>= 1.0)
     railroady (1.4.2)
@@ -205,6 +233,11 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
     web-console (2.3.0)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
@@ -219,8 +252,10 @@ DEPENDENCIES
   administrate-field-image
   annotate
   auto_html
+  axios_rails
   better_errors
   byebug
+  grape
   jbuilder (~> 2.0)
   jquery-rails
   pg (~> 0.15)

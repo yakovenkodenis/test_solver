@@ -21,6 +21,8 @@ gem 'sprockets-es6'
 gem 'administrate', '~> 0.2.0'
 gem 'administrate-field-image'
 gem 'auto_html'
+gem 'axios_rails'
+gem 'grape'
 
 group :development, :test do
   gem 'byebug'
