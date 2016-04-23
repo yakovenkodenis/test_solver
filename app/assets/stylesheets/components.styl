@@ -1,0 +1,53 @@
+@import 'rupture'
+
+#title
+    cursor pointer
+
+    a
+        color inherit
+
+.task-desk
+    width 107%
+    margin-left 0 !important
+    margin-right auto
+    padding-left 10px
+    padding-right 10px
+
+    +tablet()
+        margin-left 5em !important
+
+.error
+    color #e74c3c
+
+.task
+    display inline-block
+    margin 25px
+    padding 15px
+    border 2px solid #888
+    width 300px
+    height 200px
+    -webkit-transition all .3s ease-in
+    -moz-transition all .3s ease-in
+    -ms-transition all .3s ease-in
+    -o-transition all .3s ease-in
+    transition all .3s ease-in
+
+    &:hover
+        border 2px solid #1abc9c
+        cursor pointer
+
+    p
+        margin-top 10px
+
+    span
+        display inline-block
+        float right
+        margin-top -20%
+
+.new-task-label
+    width 100%
+
+.smaller
+    display inline
+    margin-left 80%
+    font-size 0.7em
