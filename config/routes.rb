@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
   namespace :admin do
     resources :answers
-resources :questions
-resources :subjects
-resources :tests
+    resources :questions
+    resources :subjects
+    resources :tests
 
-    root to: "answers#index"
+    root to: 'answers#index'
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
