@@ -19,6 +19,7 @@ gem 'react-rails', '~> 1.6.0'
 gem 'sprockets', '>= 3.0.0'
 gem 'sprockets-es6'
 gem 'administrate', '~> 0.2.0'
+gem 'administrate-field-image'
 gem 'auto_html'
 
 group :development, :test do

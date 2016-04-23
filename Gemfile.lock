@@ -47,6 +47,9 @@ GEM
       rails (~> 4.2)
       sass-rails (~> 5.0)
       selectize-rails (~> 0.6)
+    administrate-field-image (0.0.2)
+      administrate (>= 0.2.0.rc1, < 0.3.0)
+      rails (~> 4.2)
     annotate (2.6.5)
       activerecord (>= 2.3.0)
       rake (>= 0.8.7)
@@ -213,6 +216,7 @@ PLATFORMS
 
 DEPENDENCIES
   administrate (~> 0.2.0)
+  administrate-field-image
   annotate
   auto_html
   better_errors

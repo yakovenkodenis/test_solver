@@ -366,3 +366,478 @@ Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702
 
 
 Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-23 12:04:45 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 12:15:33 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1658ms (ActiveRecord: 0.0ms)
+
+ExecJS::RuntimeError - SyntaxError: unknown: Unexpected token (7:8)
+   5 |   }
+   6 | 
+>  7 |   state = {
+     |         ^
+   8 |     value: ''
+   9 |   }
+  10 | :
+  execjs (2.6.0) lib/execjs/external_runtime.rb:84:in `extract_result'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:39:in `exec'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:21:in `eval'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:46:in `call'
+  babel-transpiler (0.7.0) lib/babel/transpiler.rb:28:in `transform'
+  react-rails (1.6.2) lib/react/jsx/babel_transformer.rb:17:in `transform'
+  react-rails (1.6.2) lib/react/jsx.rb:21:in `transform'
+  react-rails (1.6.2) lib/react/jsx/processor.rb:5:in `call'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.6.0) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.6.0) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.6.0) lib/sprockets/loader.rb:317:in `fetch_asset_from_dependency_cache'
+  sprockets (3.6.0) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.6.0) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.6.0) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.6.0) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.6.0) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.6.0) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.6.0) lib/sprockets/loader.rb:317:in `fetch_asset_from_dependency_cache'
+  sprockets (3.6.0) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.6.0) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.6.0) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.6.0) lib/sprockets/base.rb:92:in `[]'
+  react-rails (1.6.2) lib/react/server_rendering/environment_container.rb:14:in `find_asset'
+  react-rails (1.6.2) lib/react/server_rendering/sprockets_renderer.rb:22:in `block in initialize'
+  react-rails (1.6.2) lib/react/server_rendering/sprockets_renderer.rb:21:in `initialize'
+  react-rails (1.6.2) lib/react/server_rendering.rb:22:in `create_renderer'
+  react-rails (1.6.2) lib/react/server_rendering.rb:12:in `block in reset_pool'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:169:in `try_create'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:81:in `block (2 levels) in pop'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:77:in `block in pop'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:76:in `pop'
+  connection_pool (2.2.0) lib/connection_pool.rb:89:in `checkout'
+  connection_pool (2.2.0) lib/connection_pool.rb:61:in `block in with'
+  connection_pool (2.2.0) lib/connection_pool.rb:60:in `with'
+  react-rails (1.6.2) lib/react/server_rendering.rb:16:in `render'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:31:in `block in react_component'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:202:in `with_output_buffer'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `capture'
+  actionview (4.2.5) lib/action_view/helpers/tag_helper.rb:106:in `content_tag'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:44:in `react_component'
+  react-rails (1.6.2) lib/react/rails/view_helper.rb:21:in `react_component'
+  react-rails (1.6.2) lib/react/rails/controller_renderer.rb:16:in `call'
+  react-rails (1.6.2) lib/react/rails/railtie.rb:50:in `block (2 levels) in <class:Railtie>'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  app/controllers/home_controller.rb:3:in `index'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+
+Started POST "/__better_errors/5db6a15e180c33cf/variables" for 127.0.0.1 at 2016-04-23 12:15:35 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 12:16:39 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.4ms)
+Completed 200 OK in 1185ms (Views: 1184.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components/main_container.self-ec1bece9dafbedd92dbebe3c6202590706f2fefa9c8bfd20a55e33e94989fd73.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/components/search_field.self-78750ebd23e414940a98781a692e5941d1bf0cce6e4b7a8eca9f4f8cf09b4be7.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-23 12:16:40 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 12:17:24 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.6ms)
+Completed 200 OK in 836ms (Views: 836.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-23 12:17:25 +0300
+
+
+Started GET "/assets/components/search_field.self-b08f5a54ec0aa3256474f30219e5cb1f86417614efa61b934ff48d5295b41a2f.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/components/main_container.self-ec1bece9dafbedd92dbebe3c6202590706f2fefa9c8bfd20a55e33e94989fd73.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:26 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 12:17:36 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.3ms)
+Completed 200 OK in 913ms (Views: 912.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/components/main_container.self-ec1bece9dafbedd92dbebe3c6202590706f2fefa9c8bfd20a55e33e94989fd73.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/components/search_field.self-1a917d428981ce88217dbb1ae52b073222c23817ecdbd17e1824d312268de6a9.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-23 12:17:37 +0300
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-04-23 12:18:39 +0300
+Processing by Admin::AnswersController#index as HTML
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 0.7ms)
+
+LoadError - cannot load such file -- administrate/field/image:
+  activesupport (4.2.5) lib/active_support/dependencies.rb:274:in `block in require'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:238:in `block in load_dependency'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:647:in `new_constants_in'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:238:in `load_dependency'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:274:in `require'
+  administrate (0.2.0) lib/administrate/base_dashboard.rb:7:in `<top (required)>'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:274:in `block in require'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:238:in `block in load_dependency'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:647:in `new_constants_in'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:238:in `load_dependency'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:274:in `require'
+  app/dashboards/answer_dashboard.rb:1:in `<top (required)>'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:457:in `block in load_file'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:647:in `new_constants_in'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:456:in `load_file'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:354:in `require_or_load'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:494:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  administrate (0.2.0) lib/administrate/resource_resolver.rb:8:in `dashboard_class'
+  administrate (0.2.0) app/controllers/administrate/application_controller.rb:91:in `dashboard'
+  administrate (0.2.0) app/controllers/administrate/application_controller.rb:10:in `index'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+
+Started POST "/__better_errors/7bea1f0c379f95d9/variables" for 127.0.0.1 at 2016-04-23 12:18:39 +0300
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-04-23 12:23:49 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::AnswersController#index as HTML
+  [1m[35mAnswer Load (30.1ms)[0m  SELECT  "answers".* FROM "answers" LIMIT 20 OFFSET 0
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (34.7ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "answers"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (1620.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (15.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (104.1ms)
+Completed 200 OK in 1841ms (Views: 1789.0ms | ActiveRecord: 31.1ms)
+
+
+Started GET "/assets/administrate/application.self-02f109d107d7ab2754cf3bc0c8d5e301aebedd4b9c6dc559e3be24dc8cfb7448.css?body=1" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
+
+
+Started GET "/assets/selectize.self-3effb6f6de816db1f8f925a7be3a1677dcf689b82a2a471d2b6095b87e8872ec.js?body=1" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
+
+
+Started GET "/assets/moment.self-6ab65bcb51ba1c538f5900a720453c5aff4c483661520b52008568b330d5dd03.js?body=1" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
+
+
+Started GET "/assets/administrate/components/_search.self-7adb2f7a055eb9954a9015ca41f1028b1ffa44d0a8f5ddb9b7e193c599810f42.js?body=1" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
+
+
+Started GET "/assets/administrate/components/date_time_picker.self-f0348b2d219140450e53b856e6ddedf2b5869e71bad36b9a3c7f9ec77a4380aa.js?body=1" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
+
+
+Started GET "/assets/administrate/components/table.self-be567616202e2a6901a0fdcd096e5a26bee6f88b83444215df31486d22d7bd71.js?body=1" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
+
+
+Started GET "/assets/administrate/components/has_many_form.self-1f25789b95907cf69cffca6b436b523b4df0d94bdf8903ededdeced0ac7147d7.js?body=1" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
+
+
+Started GET "/assets/administrate/application.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
+
+
+Started GET "/assets/administrate/search-360c782d91a21edd53f5754c3fd8f8984ec5d9b36389f6df1fe618a4e50405b6.svg" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
+
+
+Started GET "/assets/datetime_picker.self-953135ed994cc31cc9cfec48a266ddfc2017dce124e3a2d0503f69d3c31ed8be.js?body=1" for 127.0.0.1 at 2016-04-23 12:23:51 +0300
