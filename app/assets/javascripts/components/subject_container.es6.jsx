@@ -40,10 +40,8 @@ class SubjectContainer extends React.Component {
           {subjects}
         </div>
         {
-          tests ?
-          <div>
-            <TestContainer tests={tests}/>
-          </div>
+          tests && tests.length > 0?
+          <TestContainer tests={tests}/>
           : <div>Тестов пока что нет.</div>
         }
       </div>

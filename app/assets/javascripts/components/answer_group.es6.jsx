@@ -6,9 +6,9 @@ class AnswerGroup extends React.Component {
 
   render () {
     return (
-      <div>
+      <ul>
         {this.props.children}
-      </div>
+      </ul>
     );
   }
 }

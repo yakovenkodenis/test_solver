@@ -37,10 +37,8 @@ class TestContainer extends React.Component {
           {tests}
         </div>
         {
-          questions ?
-          <div>
-            <QuestionContainer questions={questions} />
-          </div>
+          questions && questions.length > 0 ?
+          <QuestionContainer questions={questions} />
           : <div>Вопросов пока что нет.</div>
         }
       </div>

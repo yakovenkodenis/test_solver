@@ -18,7 +18,10 @@ class Question extends React.Component {
       <div>
         <div>{this.props.question}</div>
         <AnswerGroup>
-          {answers}
+          {
+            answers && answers.length > 0 ?
+            answers
+            : <li>Ответа пока что нет.</li>}
         </AnswerGroup>
       </div>
     );
