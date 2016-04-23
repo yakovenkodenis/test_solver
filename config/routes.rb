@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   end
 
   root 'home#index'
+
+  mount API::Base => '/api'
 end
