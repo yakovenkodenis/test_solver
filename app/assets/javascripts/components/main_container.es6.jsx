@@ -1,8 +1,7 @@
 class MainContainer extends React.Component {
 
   static propTypes = {
-    subjects: React.PropTypes.array,
-    title: React.PropTypes.string
+    title: React.PropTypes.string.isRequired
   }
 
   state = {
@@ -21,10 +20,7 @@ class MainContainer extends React.Component {
       <div>
         {
           this.state.subjects &&
-          <div>
-            <SubjectContainer subjects={this.state.subjects.data} />
-            <SearchField searchPlaceholder='Search...' />
-          </div>
+          <SubjectContainer subjects={this.state.subjects.data} />
         }
       </div>
     );

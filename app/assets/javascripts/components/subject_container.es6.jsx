@@ -1,7 +1,7 @@
 class SubjectContainer extends React.Component {
 
   static propTypes = {
-    subjects: React.PropTypes.array
+    subjects: React.PropTypes.array.isRequired
   }
 
   state = {
@@ -14,7 +14,6 @@ class SubjectContainer extends React.Component {
 
   render () {
     let subjectsProp = this.props.subjects;
-    console.log(this.props.subjects);
 
     const subjects = subjectsProp.map((subject, index) => {
       return (
@@ -40,8 +39,8 @@ class SubjectContainer extends React.Component {
           {subjects}
         </div>
         {
-          tests && tests.length > 0?
-          <TestContainer tests={tests}/>
+          tests && tests.length > 0 ?
+          <TestContainer tests={tests} />
           : <div>Тестов пока что нет.</div>
         }
       </div>

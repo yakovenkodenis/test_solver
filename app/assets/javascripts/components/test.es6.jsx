@@ -1,11 +1,11 @@
 class Test extends React.Component {
   static propTypes = {
-    id: React.PropTypes.number,
-    name: React.PropTypes.string,
+    id: React.PropTypes.number.isRequired,
+    name: React.PropTypes.string.isRequired,
     questions: React.PropTypes.array,
     checked: React.PropTypes.bool,
-    radioGroupName: React.PropTypes.string,
-    onClick: React.PropTypes.func
+    radioGroupName: React.PropTypes.string.isRequired,
+    onClick: React.PropTypes.func.isRequired
   }
 
   render () {

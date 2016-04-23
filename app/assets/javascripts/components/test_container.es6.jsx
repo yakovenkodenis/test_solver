@@ -1,7 +1,7 @@
 class TestContainer extends React.Component {
 
   static propTypes = {
-    tests: React.PropTypes.array
+    tests: React.PropTypes.array.isRequired
   }
 
   state = {

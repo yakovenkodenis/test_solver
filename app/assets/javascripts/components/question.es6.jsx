@@ -1,12 +1,11 @@
 class Question extends React.Component {
 
   static propTypes = {
-    question: React.PropTypes.string,
-    answers: React.PropTypes.array
+    question: React.PropTypes.string.isRequired,
+    answers: React.PropTypes.array.isRequired
   }
 
   render () {
-
     let answersProp = this.props.answers;
     const answers = answersProp && answersProp.map((answer, index) => {
       return (

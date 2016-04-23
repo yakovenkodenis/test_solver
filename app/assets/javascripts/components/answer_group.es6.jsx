@@ -1,7 +1,7 @@
 class AnswerGroup extends React.Component {
 
   static propTypes = {
-    children: React.PropTypes.array
+    children: React.PropTypes.array.isRequired
   }
 
   render () {
