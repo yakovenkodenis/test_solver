@@ -22,7 +22,10 @@ class SearchField extends React.Component {
     return (
       <div className='search-form-block'>
         <form action={action}>
-          <input type='search' placeholder={placeholder} onChange={onChange} />
+          <input
+            type='search'
+            placeholder={placeholder}
+            onChange={onChange} />
         </form>
       </div>
     );

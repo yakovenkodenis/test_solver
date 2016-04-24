@@ -15,7 +15,7 @@ class Question extends React.Component {
 
     return (
       <div>
-        <div>{this.props.question}</div>
+        <h2>{this.props.question}</h2>
         <AnswerGroup>
           {
             answers && answers.length > 0 ?

@@ -6,7 +6,7 @@ class Answer extends React.Component {
 
   render () {
     return (
-      <li>{this.props.answer}</li>
+      <li><p>{this.props.answer}</p></li>
     );
   }
 }

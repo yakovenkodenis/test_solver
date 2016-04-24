@@ -9,8 +9,7 @@ support-for-ie ?= true
 normalize-html5()
 
 body
-    width 60%
-    margin-left 20%
+    // margin-left 20%
     font-family 'Merriweather', serif
     font-weight 300
     font-size:18px
@@ -26,7 +25,6 @@ h1, h2, h3, h4, h5, h6
 h1
     font-size 2.5em
     line-height 1.5
-    margin-left -2px
 
 h2
     font-size 1.75em
@@ -93,6 +91,7 @@ input[type=text],
 input[type=date],
 input[type=email],
 input[type=password],
+input[type=search],
 textarea
     width calc(100% - 5px)
     font-size 0.75em
@@ -104,11 +103,10 @@ textarea
     margin-top: 10px
 
 label
-    display block
+    display inline-block
     font-family Montserrat, sans-serif
     font-weight bold
     font-size 11px
-    line-height 1
     margin-bottom 0
 
 

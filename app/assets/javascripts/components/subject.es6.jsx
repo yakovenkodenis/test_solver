@@ -12,7 +12,7 @@ class Subject extends React.Component {
   render () {
     const {id, name, checked, radioGroupName, onClick} = this.props;
     return (
-        <div>
+        <div className='subject'>
           <input
             id={id}
             type='radio'

@@ -33,7 +33,7 @@ class TestContainer extends React.Component {
 
     return (
       <div>
-        <div>
+        <div className='tests-container'>
           {tests}
         </div>
         {

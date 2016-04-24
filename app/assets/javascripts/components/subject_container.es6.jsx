@@ -35,7 +35,7 @@ class SubjectContainer extends React.Component {
 
     return (
       <div>
-        <div>
+        <div className='subjects-container'>
           {subjects}
         </div>
         {

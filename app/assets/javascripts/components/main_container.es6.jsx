@@ -18,6 +18,7 @@ class MainContainer extends React.Component {
   render () {
     return (
       <div>
+        <h1 className='title' id='title'>{this.props.title}</h1>
         {
           this.state.subjects &&
           <SubjectContainer subjects={this.state.subjects.data} />

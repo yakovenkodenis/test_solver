@@ -59,7 +59,7 @@ class QuestionContainer extends React.Component {
     });
 
     return (
-      <div>
+      <div className='questions-container'>
         <SearchField
           searchPlaceholder='Search...'
           onChange={this.searchHandler.bind(this)} />
