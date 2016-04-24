@@ -33542,3 +33542,577 @@ ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
   Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
   Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (18.8ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-04-24 14:53:23 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (13.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::AnswersController#index as HTML
+  [1m[35mAnswer Load (22.0ms)[0m  SELECT  "answers".* FROM "answers" LIMIT 20 OFFSET 0
+  [1m[36mQuestion Load (28.0ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (1.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.4ms)
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 34]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (245.3ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (1614.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (4.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (91.0ms)
+Completed 200 OK in 1933ms (Views: 1709.8ms | ActiveRecord: 159.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-04-24 14:53:26 +0300
+Processing by Admin::AnswersController#index as HTML
+  [1m[35mAnswer Load (0.3ms)[0m  SELECT  "answers".* FROM "answers" LIMIT 20 OFFSET 0
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.1ms)
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 34]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (10.0ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (14.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (13.8ms)
+Completed 200 OK in 50ms (Views: 48.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+Processing by Admin::AnswersController#index as HTML
+  [1m[35mAnswer Load (0.4ms)[0m  SELECT  "answers".* FROM "answers" LIMIT 20 OFFSET 0
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.1ms)
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 34]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (23.9ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "answers"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (30.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (5.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (16.7ms)
+Completed 200 OK in 84ms (Views: 77.3ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/administrate/application.self-02f109d107d7ab2754cf3bc0c8d5e301aebedd4b9c6dc559e3be24dc8cfb7448.css?body=1" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+
+
+Started GET "/assets/selectize.self-3effb6f6de816db1f8f925a7be3a1677dcf689b82a2a471d2b6095b87e8872ec.js?body=1" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+
+
+Started GET "/assets/moment.self-6ab65bcb51ba1c538f5900a720453c5aff4c483661520b52008568b330d5dd03.js?body=1" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+
+
+Started GET "/assets/administrate/components/_search.self-7adb2f7a055eb9954a9015ca41f1028b1ffa44d0a8f5ddb9b7e193c599810f42.js?body=1" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+
+
+Started GET "/assets/administrate/components/date_time_picker.self-f0348b2d219140450e53b856e6ddedf2b5869e71bad36b9a3c7f9ec77a4380aa.js?body=1" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+
+
+Started GET "/assets/administrate/components/has_many_form.self-1f25789b95907cf69cffca6b436b523b4df0d94bdf8903ededdeced0ac7147d7.js?body=1" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+
+
+Started GET "/assets/administrate/components/table.self-be567616202e2a6901a0fdcd096e5a26bee6f88b83444215df31486d22d7bd71.js?body=1" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+
+
+Started GET "/assets/administrate/application.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+
+
+Started GET "/assets/administrate/search-360c782d91a21edd53f5754c3fd8f8984ec5d9b36389f6df1fe618a4e50405b6.svg" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+
+
+Started GET "/assets/datetime_picker.self-953135ed994cc31cc9cfec48a266ddfc2017dce124e3a2d0503f69d3c31ed8be.js?body=1" for 127.0.0.1 at 2016-04-24 14:53:56 +0300
+
+
+Started GET "/admin/answers/new" for 127.0.0.1 at 2016-04-24 14:54:02 +0300
+Processing by Admin::AnswersController#new as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_form.html.erb (42.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (1.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (70.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (76.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (14.9ms)
+Completed 200 OK in 210ms (Views: 209.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-04-24 14:54:09 +0300
+Processing by Admin::AnswersController#index as HTML
+  [1m[36mAnswer Load (0.3ms)[0m  [1mSELECT  "answers".* FROM "answers" LIMIT 20 OFFSET 0[0m
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.2ms)
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 34]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (11.1ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "answers"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (16.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (15.4ms)
+Completed 200 OK in 92ms (Views: 90.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+Processing by Admin::AnswersController#index as HTML
+  [1m[36mAnswer Load (0.4ms)[0m  [1mSELECT  "answers".* FROM "answers" LIMIT 20 OFFSET 0[0m
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.1ms)
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 34]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (22.5ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "answers"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (29.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (4.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (15.7ms)
+Completed 200 OK in 77ms (Views: 71.0ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/administrate/application.self-02f109d107d7ab2754cf3bc0c8d5e301aebedd4b9c6dc559e3be24dc8cfb7448.css?body=1" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+
+
+Started GET "/assets/selectize.self-3effb6f6de816db1f8f925a7be3a1677dcf689b82a2a471d2b6095b87e8872ec.js?body=1" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+
+
+Started GET "/assets/moment.self-6ab65bcb51ba1c538f5900a720453c5aff4c483661520b52008568b330d5dd03.js?body=1" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+
+
+Started GET "/assets/administrate/components/_search.self-7adb2f7a055eb9954a9015ca41f1028b1ffa44d0a8f5ddb9b7e193c599810f42.js?body=1" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+
+
+Started GET "/assets/administrate/components/date_time_picker.self-f0348b2d219140450e53b856e6ddedf2b5869e71bad36b9a3c7f9ec77a4380aa.js?body=1" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+
+
+Started GET "/assets/administrate/components/has_many_form.self-1f25789b95907cf69cffca6b436b523b4df0d94bdf8903ededdeced0ac7147d7.js?body=1" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+
+
+Started GET "/assets/administrate/components/table.self-be567616202e2a6901a0fdcd096e5a26bee6f88b83444215df31486d22d7bd71.js?body=1" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+
+
+Started GET "/assets/administrate/application.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+
+
+Started GET "/assets/administrate/search-360c782d91a21edd53f5754c3fd8f8984ec5d9b36389f6df1fe618a4e50405b6.svg" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+
+
+Started GET "/assets/datetime_picker.self-953135ed994cc31cc9cfec48a266ddfc2017dce124e3a2d0503f69d3c31ed8be.js?body=1" for 127.0.0.1 at 2016-04-24 14:54:21 +0300
+
+
+Started GET "/admin?search=%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%96" for 127.0.0.1 at 2016-04-24 14:54:46 +0300
+Processing by Admin::AnswersController#index as HTML
+  Parameters: {"search"=>"локальні"}
+  [1m[36mAnswer Load (118.2ms)[0m  [1mSELECT  "answers".* FROM "answers" WHERE (lower(answer) LIKE '%локальні%') LIMIT 20 OFFSET 0[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (120.8ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "answers" WHERE (lower(answer) LIKE '%локальні%')
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (127.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (76.7ms)
+Completed 200 OK in 264ms (Views: 144.0ms | ActiveRecord: 118.5ms)
+
+
+Started GET "/admin/questions" for 127.0.0.1 at 2016-04-24 14:54:49 +0300
+Processing by Admin::QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT  "questions".* FROM "questions" LIMIT 20 OFFSET 0[0m
+  [1m[35mTest Load (27.2ms)[0m  SELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.9ms)
+  [1m[36m (18.7ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (20.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 34]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (0.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (129.1ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "questions"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (134.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (14.3ms)
+Completed 200 OK in 215ms (Views: 156.3ms | ActiveRecord: 57.9ms)
+
+
+Started GET "/admin/questions?search=%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%96" for 127.0.0.1 at 2016-04-24 14:54:54 +0300
+Processing by Admin::QuestionsController#index as HTML
+  Parameters: {"search"=>"локальні"}
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE (lower(question) LIKE '%локальні%') LIMIT 20 OFFSET 0[0m
+  [1m[35mTest Load (0.2ms)[0m  SELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (0.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (6.6ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "questions" WHERE (lower(question) LIKE '%локальні%')
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (11.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (13.9ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/questions/1" for 127.0.0.1 at 2016-04-24 14:54:56 +0300
+Processing by Admin::QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mTest Load (0.3ms)[0m  SELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_show.html.erb (0.6ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 5) subquery_for_count[0m  [["question_id", 1]]
+  [1m[35mAnswer Load (0.3ms)[0m  SELECT  "answers".* FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 5  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (8.0ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_show.html.erb (14.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_show.html.erb (0.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_show.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/show.html.erb within layouts/administrate/application (34.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (16.8ms)
+Completed 200 OK in 113ms (Views: 74.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/admin/answers/1" for 127.0.0.1 at 2016-04-24 14:55:03 +0300
+Processing by Admin::AnswersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAnswer Load (15.8ms)[0m  SELECT  "answers".* FROM "answers" WHERE "answers"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_show.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_show.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_show.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_show.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/show.html.erb within layouts/administrate/application (5.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (15.5ms)
+Completed 200 OK in 73ms (Views: 55.4ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/admin/questions" for 127.0.0.1 at 2016-04-24 14:55:06 +0300
+Processing by Admin::QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  "questions".* FROM "questions" LIMIT 20 OFFSET 0
+  [1m[36mTest Load (0.4ms)[0m  [1mSELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.3ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (0.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (0.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (13.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "questions"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (18.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (14.1ms)
+Completed 200 OK in 55ms (Views: 53.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/subjects" for 127.0.0.1 at 2016-04-24 14:55:07 +0300
+Processing by Admin::SubjectsController#index as HTML
+  [1m[35mSubject Load (170.0ms)[0m  SELECT  "subjects".* FROM "subjects" LIMIT 20 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.1ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tests" WHERE "tests"."subject_id" = $1  [["subject_id", 2]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (0.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (183.3ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "subjects"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (188.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (28.9ms)
+Completed 200 OK in 242ms (Views: 68.7ms | ActiveRecord: 171.8ms)
+
+
+Started GET "/admin/tests" for 127.0.0.1 at 2016-04-24 14:55:10 +0300
+Processing by Admin::TestsController#index as HTML
+  [1m[35mTest Load (0.2ms)[0m  SELECT  "tests".* FROM "tests" LIMIT 20 OFFSET 0
+  [1m[36mSubject Load (0.2ms)[0m  [1mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.4ms)
+  [1m[35m (31.5ms)[0m  SELECT COUNT(*) FROM "questions" WHERE "questions"."test_id" = $1  [["test_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (32.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "questions" WHERE "questions"."test_id" = $1  [["test_id", 2]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (2.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "questions" WHERE "questions"."test_id" = $1  [["test_id", 3]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.2ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "questions" WHERE "questions"."test_id" = $1  [["test_id", 4]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (67.3ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tests"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (74.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (17.8ms)
+Completed 200 OK in 118ms (Views: 84.2ms | ActiveRecord: 33.3ms)
+
+
+Started GET "/admin/tests/new" for 127.0.0.1 at 2016-04-24 14:55:12 +0300
+Processing by Admin::TestsController#new as HTML
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_form.html.erb (1.9ms)
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_form.html.erb (2.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (0.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (10.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (16.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (21.2ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/tests/new" for 127.0.0.1 at 2016-04-24 14:55:31 +0300
+Processing by Admin::TestsController#new as HTML
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_form.html.erb (4.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (20.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (22.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (40.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (20.3ms)
+Completed 200 OK in 122ms (Views: 106.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 14:55:31 +0300
+
+
+Started GET "/assets/datetime_picker.self-953135ed994cc31cc9cfec48a266ddfc2017dce124e3a2d0503f69d3c31ed8be.js?body=1" for 127.0.0.1 at 2016-04-24 14:55:31 +0300
+
+
+Started GET "/assets/selectize.self-3effb6f6de816db1f8f925a7be3a1677dcf689b82a2a471d2b6095b87e8872ec.js?body=1" for 127.0.0.1 at 2016-04-24 14:55:31 +0300
+
+
+Started GET "/assets/administrate/components/has_many_form.self-1f25789b95907cf69cffca6b436b523b4df0d94bdf8903ededdeced0ac7147d7.js?body=1" for 127.0.0.1 at 2016-04-24 14:55:31 +0300
+
+
+Started GET "/assets/administrate/components/table.self-be567616202e2a6901a0fdcd096e5a26bee6f88b83444215df31486d22d7bd71.js?body=1" for 127.0.0.1 at 2016-04-24 14:55:31 +0300
+
+
+Started GET "/assets/administrate/components/date_time_picker.self-f0348b2d219140450e53b856e6ddedf2b5869e71bad36b9a3c7f9ec77a4380aa.js?body=1" for 127.0.0.1 at 2016-04-24 14:55:31 +0300
+
+
+Started GET "/assets/administrate/application.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 14:55:31 +0300
+
+
+Started GET "/assets/moment.self-6ab65bcb51ba1c538f5900a720453c5aff4c483661520b52008568b330d5dd03.js?body=1" for 127.0.0.1 at 2016-04-24 14:55:31 +0300
+
+
+Started GET "/assets/administrate/components/_search.self-7adb2f7a055eb9954a9015ca41f1028b1ffa44d0a8f5ddb9b7e193c599810f42.js?body=1" for 127.0.0.1 at 2016-04-24 14:55:32 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 14:55:32 +0300
+
+
+Started GET "/assets/administrate/application.self-02f109d107d7ab2754cf3bc0c8d5e301aebedd4b9c6dc559e3be24dc8cfb7448.css?body=1" for 127.0.0.1 at 2016-04-24 14:55:32 +0300
+
+
+Started GET "/admin/subjects" for 127.0.0.1 at 2016-04-24 14:55:54 +0300
+Processing by Admin::SubjectsController#index as HTML
+  [1m[36mSubject Load (0.5ms)[0m  [1mSELECT  "subjects".* FROM "subjects" LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tests" WHERE "tests"."subject_id" = $1  [["subject_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (1.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.2ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 2]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (1.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (46.1ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "subjects"
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (111.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (19.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (92.2ms)
+Completed 200 OK in 402ms (Views: 369.9ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/admin/subjects/new" for 127.0.0.1 at 2016-04-24 14:55:58 +0300
+Processing by Admin::SubjectsController#new as HTML
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT "tests".* FROM "tests"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_form.html.erb (4.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (0.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (8.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (15.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (17.4ms)
+Completed 200 OK in 65ms (Views: 63.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/subjects/new" for 127.0.0.1 at 2016-04-24 14:56:09 +0300
+Processing by Admin::SubjectsController#new as HTML
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (4.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (7.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (7.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (17.0ms)
+Completed 200 OK in 61ms (Views: 56.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/administrate/application.self-02f109d107d7ab2754cf3bc0c8d5e301aebedd4b9c6dc559e3be24dc8cfb7448.css?body=1" for 127.0.0.1 at 2016-04-24 14:56:09 +0300
+
+
+Started GET "/assets/selectize.self-3effb6f6de816db1f8f925a7be3a1677dcf689b82a2a471d2b6095b87e8872ec.js?body=1" for 127.0.0.1 at 2016-04-24 14:56:09 +0300
+
+
+Started GET "/assets/datetime_picker.self-953135ed994cc31cc9cfec48a266ddfc2017dce124e3a2d0503f69d3c31ed8be.js?body=1" for 127.0.0.1 at 2016-04-24 14:56:09 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 14:56:09 +0300
+
+
+Started GET "/assets/moment.self-6ab65bcb51ba1c538f5900a720453c5aff4c483661520b52008568b330d5dd03.js?body=1" for 127.0.0.1 at 2016-04-24 14:56:09 +0300
+
+
+Started GET "/assets/administrate/application.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 14:56:09 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 14:56:09 +0300
+
+
+Started GET "/assets/administrate/components/has_many_form.self-1f25789b95907cf69cffca6b436b523b4df0d94bdf8903ededdeced0ac7147d7.js?body=1" for 127.0.0.1 at 2016-04-24 14:56:09 +0300
+
+
+Started GET "/assets/administrate/components/_search.self-7adb2f7a055eb9954a9015ca41f1028b1ffa44d0a8f5ddb9b7e193c599810f42.js?body=1" for 127.0.0.1 at 2016-04-24 14:56:09 +0300
+
+
+Started GET "/assets/administrate/components/date_time_picker.self-f0348b2d219140450e53b856e6ddedf2b5869e71bad36b9a3c7f9ec77a4380aa.js?body=1" for 127.0.0.1 at 2016-04-24 14:56:09 +0300
+
+
+Started GET "/assets/administrate/components/table.self-be567616202e2a6901a0fdcd096e5a26bee6f88b83444215df31486d22d7bd71.js?body=1" for 127.0.0.1 at 2016-04-24 14:56:09 +0300
+
+
+Started GET "/admin/subjects" for 127.0.0.1 at 2016-04-24 14:56:11 +0300
+Processing by Admin::SubjectsController#index as HTML
+  [1m[35mSubject Load (0.3ms)[0m  SELECT  "subjects".* FROM "subjects" LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (1.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.2ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tests" WHERE "tests"."subject_id" = $1  [["subject_id", 2]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (0.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/date_time/_index.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (16.4ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "subjects"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (38.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (3.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (36.4ms)
+Completed 200 OK in 102ms (Views: 99.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin/subjects/new" for 127.0.0.1 at 2016-04-24 14:56:13 +0300
+Processing by Admin::SubjectsController#new as HTML
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_form.html.erb (2.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_form.html.erb (7.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/new.html.erb within layouts/administrate/application (10.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (4.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (41.5ms)
+Completed 200 OK in 105ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/questions" for 127.0.0.1 at 2016-04-24 14:56:15 +0300
+Processing by Admin::QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT  "questions".* FROM "questions" LIMIT 20 OFFSET 0
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (1.1ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (1.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "tests".* FROM "tests" WHERE "tests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/belongs_to/_index.html.erb (0.1ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/has_many/_index.html.erb (0.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/number/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/fields/string/_index.html.erb (0.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_collection.html.erb (141.5ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "questions"[0m
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/index.html.erb within layouts/administrate/application (191.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_sidebar.html.erb (1.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_flashes.html.erb (0.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/administrate-0.2.0/app/views/administrate/application/_javascript.html.erb (57.7ms)
+Completed 200 OK in 816ms (Views: 554.6ms | ActiveRecord: 53.4ms)

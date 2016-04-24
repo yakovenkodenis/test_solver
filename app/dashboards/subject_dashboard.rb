@@ -41,14 +41,14 @@ class SubjectDashboard < Administrate::BaseDashboard
   # an array of attributes that will be displayed
   # on the model's form (`new` and `edit`) pages.
   FORM_ATTRIBUTES = [
-    :tests,
+    # :tests,
     :name,
   ].freeze
 
   # Overwrite this method to customize how subjects are displayed
   # across all pages of the admin dashboard.
   #
-  # def display_resource(subject)
-  #   "Subject ##{subject.id}"
-  # end
+  def display_resource(subject)
+    subject.name
+  end
 end

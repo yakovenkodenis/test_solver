@@ -44,14 +44,15 @@ class QuestionDashboard < Administrate::BaseDashboard
   # on the model's form (`new` and `edit`) pages.
   FORM_ATTRIBUTES = [
     :test,
-    :answers,
+    # :answers,
     :question,
   ].freeze
 
   # Overwrite this method to customize how questions are displayed
   # across all pages of the admin dashboard.
   #
-  # def display_resource(question)
-  #   "Question ##{question.id}"
-  # end
+  def display_resource(question)
+    q = question.question
+    q.length > 80 ? "#{q[0..80]} ..." : q
+  end
 end

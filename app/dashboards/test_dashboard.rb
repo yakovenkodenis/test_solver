@@ -44,14 +44,14 @@ class TestDashboard < Administrate::BaseDashboard
   # on the model's form (`new` and `edit`) pages.
   FORM_ATTRIBUTES = [
     :subject,
-    :questions,
+    # :questions,
     :name,
   ].freeze
 
   # Overwrite this method to customize how tests are displayed
   # across all pages of the admin dashboard.
   #
-  # def display_resource(test)
-  #   "Test ##{test.id}"
-  # end
+  def display_resource(test)
+    test.name
+  end
 end
