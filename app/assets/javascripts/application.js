@@ -14,7 +14,6 @@
 //= require jquery_ujs
 //= require react
 //= require react_ujs
-//= require react-server
 //= require axios
 //= require components
 //= require_tree .

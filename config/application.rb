@@ -36,5 +36,10 @@ module TestSolver
     config.react.jsx_transform_options = {
       optional: ['es7.classProperties']
     }
+
+    config.assets.precompile += %w(server_rendering.js)
+    config.react.server_renderer_options = {
+      files: ['server_rendering.js']
+    }
   end
 end
