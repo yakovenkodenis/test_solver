@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.1.5'
 
 gem 'rails', '4.2.5'
 gem 'pg', '~> 0.15'
@@ -23,6 +24,10 @@ gem 'administrate-field-image'
 gem 'auto_html'
 gem 'axios_rails'
 gem 'grape'
+
+group :production do
+  gem 'rails_12factor'
+end
 
 group :development, :test do
   gem 'byebug'

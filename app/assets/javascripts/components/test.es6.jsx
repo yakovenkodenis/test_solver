@@ -17,7 +17,8 @@ class Test extends React.Component {
             type='radio'
             value={name}
             onClick={onClick}
-            name={radioGroupName}/>
+            name={radioGroupName}
+            defaultChecked={checked}/>
           <label htmlFor={radioGroupName + id}>{name}</label>
         </div>
     );

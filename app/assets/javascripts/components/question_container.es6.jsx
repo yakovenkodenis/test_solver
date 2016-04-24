@@ -77,17 +77,17 @@ class QuestionContainer extends React.Component {
             searchPlaceholder='Search...'
             onChange={this.searchHandler.bind(this)} />
         }
-          {
-            this.state.showForm ?
-              <AddForm
-                btnPlace='under-search btn-form'
-                placeholder='Введите новый вопрос...'
-                onCancel={this.handleTriggerShowForm.bind(this)} />
-            : <AddButton
-                onClick={this.handleTriggerShowForm.bind(this)}
-                text='Добавить вопрос'
-                place='under-search' />
-          }
+        {
+          this.state.showForm ?
+            <AddForm
+              btnPlace='under-search btn-form'
+              placeholder='Введите новый вопрос...'
+              onCancel={this.handleTriggerShowForm.bind(this)} />
+          : <AddButton
+              onClick={this.handleTriggerShowForm.bind(this)}
+              text='Добавить вопрос'
+              place='under-search' />
+        }
         {questions}
       </div>
     );

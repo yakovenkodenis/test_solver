@@ -48299,3 +48299,2318 @@ ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
   Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
   Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (23.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 18:40:28 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.6ms)
+Completed 200 OK in 4242ms (Views: 4242.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-a2ae4da91aeda830fad5f3aff673c91700178119da892899fcab5d0f490fbed1.css?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components/add_button.self-28472e74fd4e88e2ec3df45d84dc9ec37e2cf71356ac35375f8d31b68472601f.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components/add_form.self-395a0deb6a9f08c6f99bddfbabcb70b03d12552c61b7941cdab5122b46f8912a.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components/test.self-6f37dc63862c97444a6b39bfe2623ad6b50cca13757e1d08c2578d1593a1808b.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components/test_container.self-593ee927ed423d019d5e66d173c680469650add44895fdc855e2561eece30882.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 18:40:33 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 18:40:34 +0300
+  [1m[35mSubject Load (0.4ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.4ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.3ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.8ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 18:40:34 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (119.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (136.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 18:42:29 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.4ms)
+Completed 200 OK in 311ms (Views: 310.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-a2ae4da91aeda830fad5f3aff673c91700178119da892899fcab5d0f490fbed1.css?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components/add_button.self-28472e74fd4e88e2ec3df45d84dc9ec37e2cf71356ac35375f8d31b68472601f.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components/add_form.self-395a0deb6a9f08c6f99bddfbabcb70b03d12552c61b7941cdab5122b46f8912a.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components/test.self-6f37dc63862c97444a6b39bfe2623ad6b50cca13757e1d08c2578d1593a1808b.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/components/test_container.self-593ee927ed423d019d5e66d173c680469650add44895fdc855e2561eece30882.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 18:42:30 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 18:42:31 +0300
+  [1m[35mSubject Load (0.5ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 18:42:31 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 18:44:46 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.4ms)
+Completed 200 OK in 1539ms (Views: 1538.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components.self-19ad56d52afe40cf064fd7056681c768341b20b46919f5389b01efb086045a3d.css?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components/add_button.self-28472e74fd4e88e2ec3df45d84dc9ec37e2cf71356ac35375f8d31b68472601f.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components/add_form.self-395a0deb6a9f08c6f99bddfbabcb70b03d12552c61b7941cdab5122b46f8912a.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components/test.self-6f37dc63862c97444a6b39bfe2623ad6b50cca13757e1d08c2578d1593a1808b.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components/test_container.self-dd7db16cdec513a6094939e9a6f66dda19510123a9a5a2650d3cbf5b22041c8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 18:44:48 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 18:44:49 +0300
+  [1m[35mSubject Load (0.4ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 18:44:49 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (19.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 18:45:11 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (2.0ms)
+Completed 200 OK in 671ms (Views: 671.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-dc7ce33c737f5de1e75afa8c4b98015a4b88922d68d3b1e2f101e11ed959e697.css?body=1" for 127.0.0.1 at 2016-04-24 18:45:12 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 18:45:12 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 18:45:12 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:12 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 18:45:12 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:12 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:12 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:12 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:12 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:12 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components/add_button.self-28472e74fd4e88e2ec3df45d84dc9ec37e2cf71356ac35375f8d31b68472601f.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components/add_form.self-395a0deb6a9f08c6f99bddfbabcb70b03d12552c61b7941cdab5122b46f8912a.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components/test.self-6f37dc63862c97444a6b39bfe2623ad6b50cca13757e1d08c2578d1593a1808b.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components/test_container.self-dd7db16cdec513a6094939e9a6f66dda19510123a9a5a2650d3cbf5b22041c8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+  [1m[35mSubject Load (0.5ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 18:45:13 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 18:45:26 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.4ms)
+Completed 200 OK in 841ms (Views: 840.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-4e61a36228dc108841829646e9af4c1e5239413fb4e3310ff1a65ef7ba2c5ad1.css?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components/add_button.self-28472e74fd4e88e2ec3df45d84dc9ec37e2cf71356ac35375f8d31b68472601f.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components/add_form.self-395a0deb6a9f08c6f99bddfbabcb70b03d12552c61b7941cdab5122b46f8912a.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components/test.self-6f37dc63862c97444a6b39bfe2623ad6b50cca13757e1d08c2578d1593a1808b.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components/test_container.self-dd7db16cdec513a6094939e9a6f66dda19510123a9a5a2650d3cbf5b22041c8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+  [1m[35mSubject Load (0.8ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.3ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.5ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 18:45:28 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (100.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (72.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 18:46:12 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.4ms)
+Completed 200 OK in 495ms (Views: 495.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-7b4d9bdebca1d1f4ade157430c2b6cd91a1f14d71942408647acc1d7976b257c.css?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/components/add_button.self-28472e74fd4e88e2ec3df45d84dc9ec37e2cf71356ac35375f8d31b68472601f.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/components/add_form.self-395a0deb6a9f08c6f99bddfbabcb70b03d12552c61b7941cdab5122b46f8912a.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:13 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:14 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:14 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:14 +0300
+
+
+Started GET "/assets/components/test.self-6f37dc63862c97444a6b39bfe2623ad6b50cca13757e1d08c2578d1593a1808b.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:14 +0300
+
+
+Started GET "/assets/components/test_container.self-dd7db16cdec513a6094939e9a6f66dda19510123a9a5a2650d3cbf5b22041c8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:14 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:14 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:14 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 18:46:14 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 18:46:14 +0300
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 18:46:14 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 18:48:13 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (9.4ms)
+Completed 200 OK in 2518ms (Views: 2518.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-cb92073a45175ed69b286bcddbd551ba8b4303e2ff205dbb49912dd9bdc85f65.css?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components/add_button.self-28472e74fd4e88e2ec3df45d84dc9ec37e2cf71356ac35375f8d31b68472601f.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components/add_form.self-395a0deb6a9f08c6f99bddfbabcb70b03d12552c61b7941cdab5122b46f8912a.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components/test.self-6f37dc63862c97444a6b39bfe2623ad6b50cca13757e1d08c2578d1593a1808b.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components/test_container.self-dd7db16cdec513a6094939e9a6f66dda19510123a9a5a2650d3cbf5b22041c8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+  [1m[35mSubject Load (78.6ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 18:48:19 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (140.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (23.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (61.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 18:50:27 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.8ms)
+Completed 200 OK in 550ms (Views: 549.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-09cc3975ad37bacf1791983759dae19631be157fe18c6aa31ac967c814a053ba.css?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components/add_button.self-28472e74fd4e88e2ec3df45d84dc9ec37e2cf71356ac35375f8d31b68472601f.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components/add_form.self-395a0deb6a9f08c6f99bddfbabcb70b03d12552c61b7941cdab5122b46f8912a.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components/test.self-6f37dc63862c97444a6b39bfe2623ad6b50cca13757e1d08c2578d1593a1808b.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components/test_container.self-dd7db16cdec513a6094939e9a6f66dda19510123a9a5a2650d3cbf5b22041c8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.4ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 18:50:29 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 18:53:23 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (17.7ms)
+Completed 200 OK in 1818ms (Views: 1817.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-93993814feb8f31f6284956349ab922469785df02a9c78f0e7e7bf73f4dffd55.css?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components/add_button.self-28472e74fd4e88e2ec3df45d84dc9ec37e2cf71356ac35375f8d31b68472601f.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components/add_form.self-395a0deb6a9f08c6f99bddfbabcb70b03d12552c61b7941cdab5122b46f8912a.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components/test.self-6f37dc63862c97444a6b39bfe2623ad6b50cca13757e1d08c2578d1593a1808b.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components/test_container.self-dd7db16cdec513a6094939e9a6f66dda19510123a9a5a2650d3cbf5b22041c8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 18:53:28 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 18:53:29 +0300
+  [1m[35mSubject Load (53.6ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 18:53:29 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (41.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 18:58:55 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.4ms)
+Completed 200 OK in 1182ms (Views: 1181.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-93993814feb8f31f6284956349ab922469785df02a9c78f0e7e7bf73f4dffd55.css?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components/add_button.self-28472e74fd4e88e2ec3df45d84dc9ec37e2cf71356ac35375f8d31b68472601f.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components/add_form.self-395a0deb6a9f08c6f99bddfbabcb70b03d12552c61b7941cdab5122b46f8912a.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components/test.self-6f37dc63862c97444a6b39bfe2623ad6b50cca13757e1d08c2578d1593a1808b.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components/test_container.self-dd7db16cdec513a6094939e9a6f66dda19510123a9a5a2650d3cbf5b22041c8d.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 18:58:57 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 18:58:58 +0300
+  [1m[35mSubject Load (0.2ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 18:58:58 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (9.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 19:04:24 +0300
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 930ms (ActiveRecord: 0.0ms)
+
+ExecJS::RuntimeError - SyntaxError: unknown: Line 13: "btnStyles" is read-only
+  11 |   render () {
+  12 |     const { onCancel, placeholder, btnPlace, btnStyles } = this.props;
+> 13 |     btnStyles = btnStyles ? btnStyles : '';
+     |     ^
+  14 |     return (
+  15 |       <div className='add-form-block'>
+  16 |         <form className='add-form'>:
+  execjs (2.6.0) lib/execjs/external_runtime.rb:84:in `extract_result'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:39:in `exec'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:21:in `eval'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:46:in `call'
+  babel-transpiler (0.7.0) lib/babel/transpiler.rb:28:in `transform'
+  react-rails (1.6.2) lib/react/jsx/babel_transformer.rb:17:in `transform'
+  react-rails (1.6.2) lib/react/jsx.rb:21:in `transform'
+  react-rails (1.6.2) lib/react/jsx/processor.rb:5:in `call'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.6.0) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.6.0) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.6.0) lib/sprockets/loader.rb:317:in `fetch_asset_from_dependency_cache'
+  sprockets (3.6.0) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.6.0) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.6.0) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.6.0) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.6.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.6.0) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.6.0) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.6.0) lib/sprockets/loader.rb:317:in `fetch_asset_from_dependency_cache'
+  sprockets (3.6.0) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.6.0) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.6.0) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.6.0) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.6.0) lib/sprockets/base.rb:92:in `[]'
+  react-rails (1.6.2) lib/react/server_rendering/environment_container.rb:14:in `find_asset'
+  react-rails (1.6.2) lib/react/server_rendering/sprockets_renderer.rb:22:in `block in initialize'
+  react-rails (1.6.2) lib/react/server_rendering/sprockets_renderer.rb:21:in `initialize'
+  react-rails (1.6.2) lib/react/server_rendering.rb:22:in `create_renderer'
+  react-rails (1.6.2) lib/react/server_rendering.rb:12:in `block in reset_pool'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:169:in `try_create'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:81:in `block (2 levels) in pop'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:77:in `block in pop'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:76:in `pop'
+  connection_pool (2.2.0) lib/connection_pool.rb:89:in `checkout'
+  connection_pool (2.2.0) lib/connection_pool.rb:61:in `block in with'
+  connection_pool (2.2.0) lib/connection_pool.rb:60:in `with'
+  react-rails (1.6.2) lib/react/server_rendering.rb:16:in `render'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:31:in `block in react_component'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:202:in `with_output_buffer'
+  actionview (4.2.5) lib/action_view/helpers/capture_helper.rb:38:in `capture'
+  actionview (4.2.5) lib/action_view/helpers/tag_helper.rb:106:in `content_tag'
+  react-rails (1.6.2) lib/react/rails/component_mount.rb:44:in `react_component'
+  react-rails (1.6.2) lib/react/rails/view_helper.rb:21:in `react_component'
+  react-rails (1.6.2) lib/react/rails/controller_renderer.rb:16:in `call'
+  react-rails (1.6.2) lib/react/rails/railtie.rb:50:in `block (2 levels) in <class:Railtie>'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263:in `each'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/denis/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  app/controllers/home_controller.rb:3:in `index'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+
+Started POST "/__better_errors/7a05adbb0b1ab43e/variables" for 127.0.0.1 at 2016-04-24 19:04:28 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 19:05:42 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (9.2ms)
+Completed 200 OK in 2690ms (Views: 2689.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-93993814feb8f31f6284956349ab922469785df02a9c78f0e7e7bf73f4dffd55.css?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components/add_button.self-28472e74fd4e88e2ec3df45d84dc9ec37e2cf71356ac35375f8d31b68472601f.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components/add_form.self-8d4e2d8f85a197d8334a636980aa98ce2e9149926e27c7cecc007a71ac921582.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components/test_container.self-b7bc5bf71766e1a66937ec3efad180e006371935a6de2a1ae3c70f3067a1eba4.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/components/test.self-6f37dc63862c97444a6b39bfe2623ad6b50cca13757e1d08c2578d1593a1808b.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 19:05:49 +0300
+  [1m[35mSubject Load (71.6ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.3ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 19:05:50 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (124.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (157.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 19:08:44 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (76.0ms)
+Completed 200 OK in 20241ms (Views: 20240.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 19:16:02 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (42.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.6ms)
+Completed 200 OK in 9178ms (Views: 9177.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-93993814feb8f31f6284956349ab922469785df02a9c78f0e7e7bf73f4dffd55.css?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/components/test.self-5158188f6c9aa98e9f664fbd1fd83d3b2375a64373137f9de945159895ecf0be.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/components/add_button.self-3f31cd218a9a67d3fc938b6ddab6e2459e1df93d23344b00822578f426b70626.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/components/test_container.self-c946e14e2a6d9d365d460eba7931471c605050af675cbb7cb83dcc00924d3fac.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:13 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/components/add_form.self-8d4e2d8f85a197d8334a636980aa98ce2e9149926e27c7cecc007a71ac921582.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 19:16:14 +0300
+  [1m[35mSubject Load (154.9ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (189.7ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (74.9ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (14.0ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (31.3ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 19:16:52 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (116.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (222.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (427.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (445.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 19:17:29 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.5ms)
+Completed 200 OK in 2100ms (Views: 2100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-93993814feb8f31f6284956349ab922469785df02a9c78f0e7e7bf73f4dffd55.css?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components/add_button.self-3f31cd218a9a67d3fc938b6ddab6e2459e1df93d23344b00822578f426b70626.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components/add_form.self-eb5fd2a7ffef26afe5e5b557ec6797bc8e93c5dafdd5744c7bb112febcb284f2.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components/test.self-5158188f6c9aa98e9f664fbd1fd83d3b2375a64373137f9de945159895ecf0be.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components/test_container.self-c946e14e2a6d9d365d460eba7931471c605050af675cbb7cb83dcc00924d3fac.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 19:17:32 +0300
+  [1m[35mSubject Load (0.4ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.3ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 19:17:33 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.5ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (9.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (22.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 19:17:56 +0300
+Processing by HomeController#index as HTML
+  Rendered inline template within layouts/application (0.3ms)
+Completed 200 OK in 920ms (Views: 920.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components.self-93993814feb8f31f6284956349ab922469785df02a9c78f0e7e7bf73f4dffd55.css?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/layout.self-438df870e65cee4c99e5564b2ad068713530cc404001e90a19a3a60f05678b61.css?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/typography.self-12c60ae1255e4a56936185a07b2d886c7777f4308170269288156f8dfe97ef2f.css?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/axios.self-504f88a54a8c7438c6afe4011d4f7c6e07c734400fa20b09561e7ea6518e37ae.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components/add_button.self-6262555eb96a2d97a52f99d6a56a10329fa7aa6d132d7016cb42887e2abe1f99.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components/answer_group.self-8e009cfef34890db9d83843d6d7d3a464a7ec1f9186a3694266175e023084d0e.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components/answer.self-561278fc408663bcf68d21a7db768b67fb77833930e06ea044f3fdd887bdb9a0.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components/add_form.self-eb5fd2a7ffef26afe5e5b557ec6797bc8e93c5dafdd5744c7bb112febcb284f2.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components/main_container.self-4000787b642b673f1e58bfa9f66b2a634105112fd2685f06596b02113b45cd50.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components/question.self-64caf184eb18012d614993350425dceb8813c2d58e73ee9753fc3bb9d8b72e6f.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components/question_container.self-cf87843a8bf7eab27c2eaee547e49a2b1fdfc0fce35540be77c68016fc376e8d.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components/search_field.self-5e13316d18c298008e0ae924262de10acca32dd060bf3bd9c40fa1a2ba9a6d5c.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components/subject.self-d8c620446da2645c8370043a61925ad3cbd251d2d499ecf16b87b66000e028fb.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components/test.self-5158188f6c9aa98e9f664fbd1fd83d3b2375a64373137f9de945159895ecf0be.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components/subject_container.self-3f2e7d4e519fb3f2b4084c5aacff9039fd05c016a06a14c113e152c6054c4676.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components/test_container.self-c946e14e2a6d9d365d460eba7931471c605050af675cbb7cb83dcc00924d3fac.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-24 19:17:59 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-24 19:18:00 +0300
+
+
+Started GET "/api/v1/subjects/all?deep=true" for 127.0.0.1 at 2016-04-24 19:18:00 +0300
+  [1m[35mSubject Load (0.3ms)[0m  SELECT "subjects".* FROM "subjects"
+  [1m[36mTest Load (0.2ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 1]]
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 1]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 35]]
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 34]]
+  [1m[36mAnswer Load (0.3ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 1]]
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 2]]
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC[0m  [["test_id", 3]]
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."test_id" = $1  ORDER BY updated_at DESC  [["test_id", 4]]
+  [1m[36mTest Load (0.1ms)[0m  [1mSELECT "tests".* FROM "tests" WHERE "tests"."subject_id" = $1[0m  [["subject_id", 3]]
+
+
+Started GET "/assets/axios.map" for 127.0.0.1 at 2016-04-24 19:18:00 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/axios.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+  puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+
+
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.1ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.6ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/denis/.rvm/gems/ruby-2.1.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (19.6ms)
