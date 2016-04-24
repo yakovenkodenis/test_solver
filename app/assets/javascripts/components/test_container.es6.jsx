@@ -39,7 +39,11 @@ class TestContainer extends React.Component {
         {
           questions && questions.length > 0 ?
           <QuestionContainer questions={questions} />
-          : <div className='no-questions-block'>Вопросов пока что нет.</div>
+          :
+            <div className='no-questions-block'>
+              Вопросов пока что нет.
+              <AddButton text='Добавить новый вопрос' />
+            </div>
         }
       </div>
     );

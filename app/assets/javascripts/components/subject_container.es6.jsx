@@ -41,7 +41,11 @@ class SubjectContainer extends React.Component {
         {
           tests && tests.length > 0 ?
           <TestContainer tests={tests} />
-          : <div className='no-tests-block'>Тестов пока что нет.</div>
+          :
+            <div className='no-tests-block'>
+              Тестов пока что нет.
+              <AddButton text='Добавить новый тест' />
+            </div>
         }
       </div>
     );

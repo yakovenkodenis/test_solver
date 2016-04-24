@@ -58,7 +58,8 @@ a
 .menu
     margin-top 60px
 
-.submit, .menu a
+// .btn-add,
+.menu a
     font-family Lato, sans-serif
     border 1px solid #c0392b
     text-decoration none
@@ -70,11 +71,11 @@ a
 .menu a
     margin 10px
 
-.submit:last-of-type,
+.btn-add:last-of-type,
 .menu a:last-of-type
     margin-right 0
 
-.submit:hover,
+// .btn-add:hover,
 .menu a:hover
     border-color #e74c3c
     color #fff
@@ -82,7 +83,7 @@ a
 
 textarea:focus,
 input:focus,
-.submit:focus
+.btn-add:focus
     outline 0
     -webkit-tap-highlight-color rgba(0, 0, 0, 0)
 
@@ -114,11 +115,6 @@ label
     width: calc(100% - 23px)
 
 
-article > a
-    color #000
-    text-decoration none
-
-
 h1
     display inline-block
     text-shadow 2px 2px 0 #fff,
@@ -146,11 +142,21 @@ h1
 .mtm3
     margin-top -3px
 
-.submit
+.btn-add
+    cursor pointer
     font-family Lato,sans-serif
+    display inline-block
     border 1px solid #c0392b
     text-decoration none
     border-radius 18px
-    padding 7px 32px
+    padding 16px !important
+    margin-top 2.5%
     background #fff
     color #c0392b
+    font-size .6em
+    z-index 9999 !important
+
+    &:hover
+        border-color #e74c3c
+        color #fff
+        background-color #e74c3c
