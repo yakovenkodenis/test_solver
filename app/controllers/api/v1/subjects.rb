@@ -12,7 +12,7 @@ module API
         end
         get 'all' do
           if params[:deep]
-            Subject.all.order('updated_at DESC').as_json(
+            Subject.all.as_json(
               include: {
                 tests: {
                   include: {
@@ -24,7 +24,7 @@ module API
               }
             )
           else
-            Subject.all.order('updated_at DESC').as_json
+            Subject.all.as_json
           end
         end
 
