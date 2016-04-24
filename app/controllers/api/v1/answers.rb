@@ -13,7 +13,7 @@ module API
           question = Question.find(params[:question_id])
 
           if question
-            question.answers.as_json
+            question.answers.order('updated_at DESC').as_json
           else
             { error: "No question with id #{params[:question_id]}" }
           end

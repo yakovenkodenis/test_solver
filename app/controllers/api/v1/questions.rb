@@ -16,9 +16,9 @@ module API
 
           if test
             if params[:deep]
-              test.questions.as_json(include: :answers)
+              test.questions.order('updated_at DESC').as_json(include: :answers)
             else
-              test.questions.as_json
+              test.questions.order('updated_at DESC').as_json
             end
           else
             { error: "No test with id #{params[:test_id]}" }

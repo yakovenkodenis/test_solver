@@ -16,7 +16,7 @@ module API
 
           if subject
             if params[:deep]
-              subject.tests.as_json(
+              subject.tests.order('updated_at DESC').as_json(
                 include: {
                   questions: {
                     include: :answers
@@ -24,7 +24,7 @@ module API
                 }
               )
             else
-              subject.tests.as_json
+              subject.tests.order('updated_at DESC').as_json
             end
           else
             { error: "No subject with id #{params[:subject_id]}" }
