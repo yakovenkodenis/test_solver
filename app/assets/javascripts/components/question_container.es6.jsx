@@ -5,11 +5,22 @@ class QuestionContainer extends React.Component {
   }
 
   state = {
-    searchString: ''
+    searchString: '',
+    showForm: false
+  }
+
+  handleTriggerShowForm() {
+    this.setState({
+      ...this.state,
+      showForm: !this.state.showForm
+    });
   }
 
   searchHandler(e) {
-    this.setState({ searchString: e.target.value });
+    this.setState({
+      ...this.state,
+      searchString: e.target.value
+    });
   }
 
     searchStringInArray(str, strArray) {
@@ -60,9 +71,23 @@ class QuestionContainer extends React.Component {
 
     return (
       <div className='questions-container'>
-        <SearchField
-          searchPlaceholder='Search...'
-          onChange={this.searchHandler.bind(this)} />
+        {
+          !this.state.showForm &&
+          <SearchField
+            searchPlaceholder='Search...'
+            onChange={this.searchHandler.bind(this)} />
+        }
+          {
+            this.state.showForm ?
+              <AddForm
+                btnPlace='under-search btn-form'
+                placeholder='Введите новый вопрос...'
+                onCancel={this.handleTriggerShowForm.bind(this)} />
+            : <AddButton
+                onClick={this.handleTriggerShowForm.bind(this)}
+                text='Добавить вопрос'
+                place='under-search' />
+          }
         {questions}
       </div>
     );
