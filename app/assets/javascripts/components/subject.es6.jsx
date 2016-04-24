@@ -14,13 +14,13 @@ class Subject extends React.Component {
     return (
         <div className='subject'>
           <input
-            id={id}
+            id={radioGroupName + id}
             type='radio'
             value={name}
             onClick={onClick}
             name={radioGroupName}
             defaultChecked={checked}/>
-          <label htmlFor={id}>{name}</label>
+          <label htmlFor={radioGroupName + id}>{name}</label>
         </div>
     );
   }

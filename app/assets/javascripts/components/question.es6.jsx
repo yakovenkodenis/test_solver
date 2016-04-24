@@ -14,13 +14,13 @@ class Question extends React.Component {
     });
 
     return (
-      <div>
+      <div className='question'>
         <h2>{this.props.question}</h2>
         <AnswerGroup>
           {
             answers && answers.length > 0 ?
             answers
-            : <li>Ответа пока что нет.</li>}
+            : <li className='no-answer'>Ответа пока что нет.</li>}
         </AnswerGroup>
       </div>
     );

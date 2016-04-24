@@ -15,14 +15,13 @@
     font-size 0.7em
 
 .main-container
-    position absolute
     text-align center
 
 .subjects-container
     width 40% !important
-    display block
-    margin-right 0 !important
-    margin-left -10%
+    display inline-block
+    margin-right 2%
+    float left
 
     input[type=radio]
         display: none
@@ -62,9 +61,55 @@
 
 
     .subject
-        width 100% !important
-        display block
+        width 100%
+        margin-left -15%
+        display inline-block
 
 
 .tests-container
-    display inline-block !important
+    display inline-block
+    float left
+    cursor pointer
+
+    input[type=radio]
+        display: none
+
+    .test
+        font-size 2.25em
+        line-height 1
+        margin-bottom 0
+        display inline-block
+
+        input[type=radio]:checked + label
+            color #e74c3c
+            background lighten(#999, 90%)
+
+        &:nth-child(n)
+            margin-bottom -15%
+
+        label
+            cursor pointer
+            font-weight 500
+            padding 10px
+            font-size 45%
+
+            &:hover
+                color #e74c3c
+                background lighten(#999, 90%)
+
+
+.questions-container
+
+    .question ul
+        list-style-type none
+
+
+.no-questions-block
+    display block
+    padding-top 10%
+    font-family Lato, sans-serif
+    font-size 1.5em
+    line-height 0
+    letter-spacing 1px
+    font-weight 300
+    opacity .8

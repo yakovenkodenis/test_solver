@@ -11,14 +11,14 @@ class Test extends React.Component {
   render () {
     const {id, name, checked, radioGroupName, onClick} = this.props;
     return (
-        <div>
+        <div className='test'>
           <input
-            id={id}
+            id={radioGroupName + id}
             type='radio'
             value={name}
             onClick={onClick}
             name={radioGroupName}/>
-          <label htmlFor={id}>{name}</label>
+          <label htmlFor={radioGroupName + id}>{name}</label>
         </div>
     );
   }
